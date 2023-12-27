@@ -1,0 +1,1603 @@
+.preloader .spinner .double-bounce1,
+.preloader .spinner .double-bounce2,
+.lnk:hover .arrow:before,
+.button:hover .arrow:before,
+.lnk:hover .arrow:after,
+.button:hover .arrow:after,
+.resume-items .resume-item.active .date:before,
+.skills-list ul li .progress .percentage,
+.single-post-text ul > li:before,
+.comment-text ul > li:before,
+.content-sidebar
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_item
+  > a:before,
+.content-sidebar
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_item
+  > a:after,
+.content-sidebar .main-menu ul li.page_item_has_children:hover > a:before,
+.content-sidebar .main-menu ul li.page_item_has_children:hover > a:after,
+.content-sidebar
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_parent
+  > a:before,
+.content-sidebar
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_parent
+  > a:after,
+.content-sidebar
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_ancestor
+  > a:before,
+.content-sidebar
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_ancestor
+  > a:after,
+.content-sidebar .close:hover:before,
+.content-sidebar .close:hover:after,
+.header .menu-btn:hover span,
+.header .menu-btn:hover span:before,
+.header .menu-btn:hover span:after,
+.info-list ul li strong,
+.profile .main-menu ul li.page_item_has_children.current_page_item > a:before,
+.profile .main-menu ul li.page_item_has_children.current_page_item > a:after,
+.profile .main-menu ul li.page_item_has_children:hover > a:before,
+.profile .main-menu ul li.page_item_has_children:hover > a:after,
+.profile .main-menu ul li.page_item_has_children.current_page_parent > a:before,
+.profile .main-menu ul li.page_item_has_children.current_page_parent > a:after,
+.profile
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_ancestor
+  > a:before,
+.profile
+  .main-menu
+  ul
+  li.page_item_has_children.current_page_ancestor
+  > a:after,
+.service-items .service-item .icon,
+.revs-carousel .owl-dot.active,
+.custom-content-reveal span.custom-content-close,
+.fc-calendar .fc-row > div.fc-today,
+.fc-calendar .fc-content:hover span.fc-date,
+.fc-calendar .fc-row > div.fc-today span.fc-date,
+.skills-list.dotted ul li .progress .percentage .da span,
+.preloader .spinner.default-circle:before,
+.preloader .spinner.default-circle:after,
+.preloader .spinner.clock:before,
+.preloader .spinner.box-rotation:after,
+.header .cart-btn .cart-icon .cart-count,
+.woocommerce span.onsale,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce ul.products li.product .button.add_to_cart_button.added,
+.popup-box .preloader .spinner.default-circle:before,
+.popup-box .preloader .spinner.default-circle:after,
+.popup-box .preloader-popup .spinner.default-circle:before,
+.popup-box .preloader-popup .spinner.default-circle:after,
+.single-post-text ul > li:before,
+.comment-text ul > li:before,
+.blog-content ul > li:before,
+.revs-carousel .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button .woocommerce-mini-cart__buttons #respond input#submit,
+.woocommerce-mini-cart__buttons a.button,
+.woocommerce-mini-cart__buttons button.button,
+.woocommerce-mini-cart__buttons input.button,
+.woocommerce .woocommerce-ordering select,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce a.remove:hover,
+.solid-icons-style .service-items .service-item .icon,
+.solid-icons-style .pricing-items .pricing-item .icon,
+.solid-icons-style .fuct-items .fuct-item .icon,
+.solid-icons-style .resume-title .icon,
+.solid-icons-style .skill-title .icon,
+.card-started .profile .lnk.solid-style .ion,
+.header .top-menu.menu-minimal ul li a .name {
+  background-color: #a1c568;
+}
+.lnk:hover,
+.button:hover,
+.lnk:hover .ion,
+.button:hover .ion,
+a,
+a:hover,
+input:focus,
+textarea:focus,
+.header .top-menu ul li:hover a,
+.header .top-menu ul li.active a,
+.header .top-menu ul li.current-menu-item a,
+.header .top-menu ul li:hover a .icon,
+.header .top-menu ul li.active a .icon,
+.header .top-menu ul li:hover a .link,
+.header .top-menu ul li.active a .link,
+.header .top-menu ul li.current-menu-item a .icon,
+.header .top-menu ul li.current-menu-item a .link,
+.header .profile .subtitle,
+.card-started .profile .subtitle,
+.content-sidebar .profile .subtitle,
+.card-started .profile .social a:hover .ion,
+.card-started .profile .social a:hover .fab,
+.card-started .profile .social a:hover .fas,
+.content-sidebar .profile .social a:hover .ion,
+.content-sidebar .profile .social a:hover .fab,
+.content-sidebar .profile .social a:hover .fas,
+.pricing-items .pricing-item .icon,
+.fuct-items .fuct-item .icon,
+.resume-title .icon,
+.skill-title .icon,
+.resume-items .resume-item.active .date,
+.content.works .filter-menu .f_btn.active,
+.box-item:hover .desc .name,
+.single-post-text p a,
+.comment-text p a,
+.post-text-bottom span.cat-links a,
+.post-text-bottom .tags-links a,
+.post-text-bottom .tags-links span,
+.page-numbers.current,
+.page-links a,
+.post-comments .post-comment .desc .name,
+.post-comments .post-comment .desc span.comment-reply a:hover,
+.content-sidebar .main-menu ul li.current_page_item > a,
+.content-sidebar .main-menu ul li:hover > a,
+.content-sidebar .main-menu ul li.current_page_parent > a,
+.content-sidebar .main-menu ul li.current_page_ancestor > a,
+.content-sidebar .widget ul li a:hover,
+.content-sidebar .tagcloud a,
+.card-started .profile .subtitle,
+.content-sidebar .profile .subtitle,
+.content-sidebar .profile .typed-cursor,
+.card-started .profile .typed-cursor,
+.content .title .first-word,
+.content .title:first-letter,
+.content .title .first-letter:first-letter,
+.content-sidebar h2.widget-title .first-word,
+.content-sidebar h2.widget-title:first-letter,
+.content-sidebar h2.widget-title .first-letter:first-letter,
+.box-item .date,
+.profile .main-menu ul li.current-menu-item a,
+.profile .main-menu ul li.current_page_item > a,
+.profile .main-menu ul li:hover > a,
+.profile .main-menu ul li.current_page_parent > a,
+.profile .main-menu ul li.current_page_ancestor > a,
+.custom-header nav span:before,
+.fc-calendar .fc-row > div.fc-content:hover:after,
+.skills-list.list ul li .name:before,
+.preloader .spinner.recursive-circle,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce .star-rating,
+strong.woocommerce-review__author,
+.woocommerce-message:before,
+.single-post-text p a,
+.comment-text p a,
+.blog-content p a,
+.minimal-icons-style .service-items .service-item .icon,
+.minimal-icons-style .pricing-items .pricing-item .icon,
+.minimal-icons-style .fuct-items .fuct-item .icon,
+.minimal-icons-style .resume-title .icon,
+.minimal-icons-style .skill-title .icon,
+.border-icons-style .service-items .service-item .icon,
+.border-icons-style .pricing-items .pricing-item .icon,
+.border-icons-style .fuct-items .fuct-item .icon,
+.border-icons-style .resume-title .icon,
+.border-icons-style .skill-title .icon,
+.lnk:hover .ion,
+.button:hover .ion,
+.lnk:hover .fa,
+.button:hover .fa {
+  color: #a1c568;
+}
+.pricing-items .pricing-item .icon svg,
+.fuct-items .fuct-item .icon svg,
+.resume-title .icon svg,
+.skill-title .icon svg,
+.minimal-icons-style .service-items .service-item .icon svg,
+.minimal-icons-style .pricing-items .pricing-item .icon svg,
+.minimal-icons-style .fuct-items .fuct-item .icon svg,
+.minimal-icons-style .resume-title .icon svg,
+.minimal-icons-style .skill-title .icon svg,
+.border-icons-style .service-items .service-item .icon svg,
+.border-icons-style .pricing-items .pricing-item .icon svg,
+.border-icons-style .fuct-items .fuct-item .icon svg,
+.border-icons-style .resume-title .icon svg,
+.border-icons-style .skill-title .icon svg {
+  fill: #a1c568;
+}
+.content .title .first-word,
+.content .title:first-letter,
+.content .title .first-letter:first-letter,
+.content-sidebar h2.widget-title .first-word,
+.content-sidebar h2.widget-title:first-letter,
+.content-sidebar h2.widget-title .first-letter:first-letter {
+  color: #a1c568 !important;
+}
+.theme-style-blured.theme-style-cyber .content .title:after,
+.theme-style-blured.theme-style-cyber .border-line-v:before,
+.theme-style-blured.theme-style-cyber .border-line-v:after,
+.theme-style-blured.theme-style-cyber .border-line-h:after,
+.theme-style-blured.theme-style-cyber .lnks:before {
+  background: #a1c568 !important;
+}
+.textured-icons-style .service-items .service-item .icon,
+.textured-icons-style .pricing-items .pricing-item .icon,
+.textured-icons-style .fuct-items .fuct-item .icon,
+.textured-icons-style .resume-title .icon,
+.textured-icons-style .skill-title .icon {
+  color: #a1c568;
+}
+.textured-icons-style .service-items .service-item .icon svg,
+.textured-icons-style .pricing-items .pricing-item .icon svg,
+.textured-icons-style .fuct-items .fuct-item .icon svg,
+.textured-icons-style .resume-title .icon svg,
+.textured-icons-style .skill-title .icon svg {
+  fill: #a1c568;
+}
+.card-started .profile .image:before,
+.content-sidebar .profile .image:before,
+.content .title:before,
+.box-item .image .info:before,
+.content-sidebar h2.widget-title:before {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.15) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.15) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(161, 197, 104, 0.15) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+}
+.card-started:after {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.4) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.4) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(161, 197, 104, 0.4) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+}
+.box-item .image .info:before {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.5) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.5) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(161, 197, 104, 0.5) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+}
+.card-started .profile .slide,
+.content-sidebar .profile .slide {
+ 
+   background-color: #282828 !important; 
+  background-image: url("../assets/images/profile.png"); 
+}
+.pricing-items .pricing-item .feature-list ul li strong {
+  background: rgba(161, 197, 104, 0.15);
+}
+.cursor {
+  background-color: rgba(161, 197, 104, 0.25);
+}
+.cursor.cursor-zoom {
+  border-color: rgba(161, 197, 104, 1);
+}
+@media (min-width: 1120px) {
+  .container.layout-futurism-style .header:before {
+    border-color: #a1c568;
+  }
+}
+input:focus,
+textarea:focus,
+.revs-carousel .owl-dots .owl-dot,
+.custom-header,
+.post-text-bottom .tags-links a,
+.post-text-bottom .tags-links span,
+.content-sidebar .tagcloud a,
+.resume-items .resume-item.active .date,
+.box-item .date,
+.content.skills .skills-list.circles .progress .bar,
+.content.skills .skills-list.circles .progress .fill,
+.preloader .spinner.clock,
+.preloader .spinner.box-rotation,
+.skills-list.circles .progress .bar,
+.skills-list.circles .progress.p51 .fill,
+.skills-list.circles .progress.p52 .fill,
+.skills-list.circles .progress.p53 .fill,
+.skills-list.circles .progress.p54 .fill,
+.skills-list.circles .progress.p55 .fill,
+.skills-list.circles .progress.p56 .fill,
+.skills-list.circles .progress.p57 .fill,
+.skills-list.circles .progress.p58 .fill,
+.skills-list.circles .progress.p59 .fill,
+.skills-list.circles .progress.p60 .fill,
+.skills-list.circles .progress.p61 .fill,
+.skills-list.circles .progress.p62 .fill,
+.skills-list.circles .progress.p63 .fill,
+.skills-list.circles .progress.p64 .fill,
+.skills-list.circles .progress.p65 .fill,
+.skills-list.circles .progress.p66 .fill,
+.skills-list.circles .progress.p67 .fill,
+.skills-list.circles .progress.p68 .fill,
+.skills-list.circles .progress.p69 .fill,
+.skills-list.circles .progress.p70 .fill,
+.skills-list.circles .progress.p71 .fill,
+.skills-list.circles .progress.p72 .fill,
+.skills-list.circles .progress.p73 .fill,
+.skills-list.circles .progress.p74 .fill,
+.skills-list.circles .progress.p75 .fill,
+.skills-list.circles .progress.p76 .fill,
+.skills-list.circles .progress.p77 .fill,
+.skills-list.circles .progress.p78 .fill,
+.skills-list.circles .progress.p79 .fill,
+.skills-list.circles .progress.p80 .fill,
+.skills-list.circles .progress.p81 .fill,
+.skills-list.circles .progress.p82 .fill,
+.skills-list.circles .progress.p83 .fill,
+.skills-list.circles .progress.p84 .fill,
+.skills-list.circles .progress.p85 .fill,
+.skills-list.circles .progress.p86 .fill,
+.skills-list.circles .progress.p87 .fill,
+.skills-list.circles .progress.p88 .fill,
+.skills-list.circles .progress.p89 .fill,
+.skills-list.circles .progress.p90 .fill,
+.skills-list.circles .progress.p91 .fill,
+.skills-list.circles .progress.p92 .fill,
+.skills-list.circles .progress.p93 .fill,
+.skills-list.circles .progress.p94 .fill,
+.skills-list.circles .progress.p95 .fill,
+.skills-list.circles .progress.p96 .fill,
+.skills-list.circles .progress.p97 .fill,
+.skills-list.circles .progress.p98 .fill,
+.skills-list.circles .progress.p99 .fill,
+.skills-list.circles .progress.p100 .fill,
+.revs-carousel .swiper-pagination-bullet,
+.border-icons-style .service-items .service-item .icon,
+.border-icons-style .pricing-items .pricing-item .icon,
+.border-icons-style .fuct-items .fuct-item .icon,
+.border-icons-style .resume-title .icon,
+.border-icons-style .skill-title .icon {
+  border-color: #a1c568;
+}
+.preloader .spinner.recursive-circle,
+.preloader .spinner.recursive-circle:after {
+  border-color: #a1c568;
+  border-top-color: transparent;
+}
+blockquote {
+  border-left-color: #a1c568;
+}
+.preloader .spinner.simple-circle {
+  border-right-color: #a1c568;
+}
+.preloader .spinner.quantum-spinner,
+.preloader .spinner.quantum-spinner:before,
+.preloader .spinner.quantum-spinner:after {
+  border-top-color: #a1c568;
+}
+.mode-switch-btn .mode-swich-label:hover svg path,
+.mode-switch-btn .tgl:checked + .mode-swich-label:hover svg path,
+.card-started .profile .social a:hover .ion path,
+.card-started .profile .social a:hover .fab path,
+.card-started .profile .social a:hover .fas path,
+.content-sidebar .profile .social a:hover .ion path,
+.content-sidebar .profile .social a:hover .fab path,
+.content-sidebar .profile .social a:hover .fas path {
+  fill: #a1c568;
+}
+.rprof-before path,
+.rprof-after path {
+  fill: #a1c568;
+}
+.body-style-dark .content .title {
+  color: rgba(255, 255, 255, 0.85);
+}
+.body-style-dark .content .title {
+  color: #fff;
+}
+body.body-style-dark {
+  color: rgba(255, 255, 255, 0.55);
+}
+body.body-style-dark .content .title .first-word,
+body.body-style-dark .content .title:first-letter,
+body.body-style-dark .content .title .first-letter:first-letter,
+body.body-style-dark .content-sidebar h2.widget-title .first-word,
+body.body-style-dark .content-sidebar h2.widget-title:first-letter,
+body.body-style-dark
+  .content-sidebar
+  h2.widget-title
+  .first-letter:first-letter {
+  color: #a1c568 !important;
+}
+body {
+  font-family: "Sora";
+}
+p,
+.row .col,
+body,
+.info-list ul li,
+.skills-list ul li {
+  font-size: 16px;
+}
+p,
+.card-inner {
+  line-height: 1.6;
+}
+.content .title {
+  font-family: "Sora";
+}
+.content .title {
+  font-size: 24px;
+}
+.content .title,
+.service-items .service-item .name,
+.pricing-items .pricing-item .name,
+.revs-item .info .name,
+.resume-title .name,
+.skill-title .name,
+.resume-items .resume-item .name,
+.revs-item .info .name,
+.box-item .desc .name,
+.content.blog .box-item .desc .name,
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+  font-weight: 800;
+}
+.card-started .profile .title,
+.content-sidebar .profile .title {
+  font-size: 38px;
+}
+.card-started .profile .title,
+.content-sidebar .profile .title {
+  font-weight: 800;
+}
+.card-started .profile .social a .fab,
+.content-sidebar .profile .social a .fab {
+  font-size: 18px;
+}
+.card-started .profile .social a .fab path,
+.content-sidebar .profile .social a .fab path {
+  width: 18px;
+}
+.service-items .service-item .icon {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.15) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.15) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(161, 197, 104, 0.15) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+}
+.service-items .service-item .icon {
+  color: #a1c568;
+}
+.service-items .service-item .icon svg {
+  fill: #a1c568;
+}
+.card-started:after,
+.card-started .profile .image:before,
+.content-sidebar .profile .image:before,
+.content .title:before,
+.box-item .image .info:before,
+.content-sidebar h2.widget-title:before {
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.4) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(161, 197, 104, 0.4) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(161, 197, 104, 0.4) 0%,
+    rgba(161, 197, 104, 0.01) 100%
+  );
+}
+body.body-style-dark .header .menu-btn,
+body.body-style-dark .card-started .profile,
+body.body-style-dark .card-started .profile .slide:before,
+body.body-style-dark .card-started .profile .slide:after,
+body.body-style-dark .card-inner,
+body.body-style-dark .card-inner:before,
+body.body-style-dark .card-inner:after,
+body.body-style-dark .skills-list.circles .progress:after,
+body.body-style-dark .mfp-wrap.popup-box-inline,
+body.body-style-dark .mfp-content .info-list ul li strong,
+body.body-style-dark .info-list ul li strong:after,
+body.body-style-dark .content-sidebar,
+body.body-style-dark .profile .main-menu-fixed:before,
+body.body-style-dark .header .cart-btn,
+body.body-style-dark .header .cart-btn .cart-widget,
+body.body-style-dark .header .top-menu,
+body.body-style-dark .header .mode-switch-btn,
+body.body-style-dark .content-sidebar .close,
+body.body-style-dark .custom-footer {
+  background: #282828;
+}
+body.body-style-dark .header .cart-btn .cart-widget:before {
+  border-right-color: #282828;
+}
+body.body-style-dark .card-started .profile .image img,
+body.body-style-dark .content-sidebar .profile .image img {
+  border-color: #282828;
+}
+body.body-style-dark .theme-style-blured .card-inner {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(49, 49, 58, 0) 75%,
+    rgba(49, 49, 58, 1) 100%
+  ) !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(49, 49, 58, 0) 75%,
+    rgba(49, 49, 58, 1) 100%
+  ) !important;
+}
+body.body-style-dark .textured-icons-style .service-items .service-item .icon,
+body.body-style-dark .textured-icons-style .pricing-items .pricing-item .icon,
+body.body-style-dark .textured-icons-style .fuct-items .fuct-item .icon,
+body.body-style-dark .textured-icons-style .resume-title .icon,
+body.body-style-dark .textured-icons-style .skill-title .icon {
+  background-color: #282828 !important;
+}
+body.body-style-dark .rprof-after path:nth-child(3) {
+  fill: #282828;
+}
+@media (max-width: 680px) {
+  body.body-style-dark .header {
+    background-color: #282828;
+  }
+}
+@media (max-width: 680px) {
+  body.body-style-dark .header .top-menu ul.menu {
+    background-color: #282828;
+  }
+  body.body-style-dark .theme-style-textured .header .top-menu ul.menu {
+    background-color: transparent;
+  }
+}
+body.body-style-dark .header .menu-btn,
+body.body-style-dark .card-started .profile,
+body.body-style-dark .card-started .profile .slide:before,
+body.body-style-dark .card-started .profile .slide:after,
+body.body-style-dark .card-inner,
+body.body-style-dark .card-inner:before,
+body.body-style-dark .card-inner:after,
+body.body-style-dark .skills-list.circles .progress:after,
+body.body-style-dark .mfp-wrap.popup-box-inline,
+body.body-style-dark .mfp-content .info-list ul li strong,
+body.body-style-dark .info-list ul li strong:after,
+body.body-style-dark .content-sidebar,
+body.body-style-dark .profile .main-menu-fixed:before,
+body.body-style-dark .header .cart-btn,
+body.body-style-dark .header .cart-btn .cart-widget,
+body.body-style-dark .header .top-menu,
+body.body-style-dark .header .mode-switch-btn,
+body.body-style-dark .content-sidebar .close,
+body.body-style-dark .custom-footer {
+  background: #202020;
+}
+body.body-style-dark .header .cart-btn .cart-widget:before {
+  border-right-color: #202020;
+}
+body.body-style-dark .card-started .profile .image img,
+body.body-style-dark .content-sidebar .profile .image img {
+  border-color: #202020;
+}
+body.body-style-dark .theme-style-blured .card-inner {
+  background: -webkit-linear-gradient(
+    top,
+    rgba(32, 32, 32, 0) 75%,
+    rgba(32, 32, 32, 1) 100%
+  ) !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(32, 32, 32, 0) 75%,
+    rgba(32, 32, 32, 1) 100%
+  ) !important;
+}
+body.body-style-dark .textured-icons-style .service-items .service-item .icon,
+body.body-style-dark .textured-icons-style .pricing-items .pricing-item .icon,
+body.body-style-dark .textured-icons-style .fuct-items .fuct-item .icon,
+body.body-style-dark .textured-icons-style .resume-title .icon,
+body.body-style-dark .textured-icons-style .skill-title .icon {
+  background-color: #202020 !important;
+}
+body.body-style-dark .rprof-after path:nth-child(3) {
+  fill: #202020;
+}
+@media (max-width: 680px) {
+  body.body-style-dark .header {
+    background-color: #202020;
+  }
+}
+@media (max-width: 680px) {
+  body.body-style-dark .header .top-menu ul.menu {
+    background-color: #202020;
+  }
+  body.body-style-dark .theme-style-textured .header .top-menu ul.menu {
+    background-color: transparent;
+  }
+}
+.card-started .profile .image img,
+.content-sidebar .profile .image img,
+.card-started .profile .image:before,
+.content-sidebar .profile .image:before {
+  -webkit-border-radius: 30%;
+  border-radius: 30%;
+}
+.card-started .profile .image:before,
+.content-sidebar .profile .image:before,
+.content .title:before,
+.content-sidebar h2.widget-title:before {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  dark themsn  */
+/*
+*	 Author: bslthemes
+*	 Author URL: http://themeforest.net/user/bslthemes
+*/
+
+/* TABLE OF CONTENTS
+	1. Template Dark
+*/
+
+/* 1. Template Dark */
+body {
+	color: rgba(255, 255, 255, 0.55);
+	background: #26262d;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: rgba(255,255,255,0.25);
+}
+
+.background {
+	background-color: #26262d;
+}
+
+.border-line-v:before {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.border-line-h:after {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.post-latest .row.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.lnks:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lnk,
+.button {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.lnk:before,
+.button:before {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.lnk .arrow:before,
+.button .arrow:before,
+.lnk .arrow:after,
+.button .arrow:after {
+	background: rgba(255, 255, 255, 0.85);
+}
+
+a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+th {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+td {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input,
+textarea,
+button {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.header .menu-btn {
+	color: rgba(255, 255, 255, 0.9);
+	background: #282828;
+}
+
+.header .top-menu ul li a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.header .menu-btn span, .header .menu-btn span:before, .header .menu-btn span:after {
+	background: rgba(255, 255, 255, 0.85);
+}
+
+.header .top-menu ul li a:before {
+	background: -moz-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(right, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at right, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.header .top-menu ul li a .icon {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 1240px) {
+	.header .top-menu {
+		box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+	}
+
+	.header .top-menu ul li a:before {
+		background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	}
+}
+
+@media (max-width: 680px) {
+.header {
+	background: #282828;
+}
+}
+
+.card-started:before {
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-started:after {
+	background: #282828;
+	opacity: 0.3;
+}
+
+.card-started .profile {
+	background: #282828;
+}
+
+.card-started .profile .slide:before,
+.card-started .profile .slide:after {
+	background: #282828;
+}
+
+.card-started .profile .title {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.card-started .profile .social a .ion,
+.card-started .profile .social a .fab,
+.card-started .profile .social a .fas {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.card-inner,
+.custom-footer {
+	background: #282828;
+}
+
+.card-started .profile .image img,
+.content-sidebar .profile .image img {
+	border-color: #282828;
+}
+
+.card-inner:before,
+.card-inner:after {
+	background: #282828;
+}
+
+.content .title {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content .title:after {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.info-list ul li strong {
+	color: #282828;
+}
+
+.service-items.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.service-items .service-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+@media (max-width: 560px) {
+	.service-items .col:after {
+		background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+		background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	}
+
+}
+
+.pricing-items .pricing-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .amount .number {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .amount .dollar,
+.pricing-items .pricing-item .amount .period {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .amount .period {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.pricing-items .pricing-item .feature-list ul li {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.pricing-items .pricing-item .feature-list ul li strong {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.fuct-items .fuct-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.resume-title .icon,
+.skill-title .icon {
+	background: transparent;
+}
+
+.resume-title .name,
+.skill-title .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.resume-items .resume-item .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.skills-list ul li .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.skills-list ul li .progress {
+	background: #3e4148;
+}
+
+.skills-list.dotted ul li .progress .dg span, .skills-list.dotted ul li .progress .da span {
+	background: #3e4148;
+}
+
+.skills-list.circles .progress {
+	background: #3e4148;
+}
+
+.skills-list.circles .progress span {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.skills-list.circles .progress:after {
+	background-color: #282828;
+}
+
+.content.works .filter-menu .f_btn {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content.works .grid-items.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.box-item .desc .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mfp-wrap.popup-box-inline .mfp-close {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mfp-wrap.popup-box-inline,
+.mfp-content .info-list ul li strong {
+	background: #282828;
+}
+
+.post-box .blog-detail {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.post-box .blog-content blockquote {
+	color: rgba(255, 255, 255, 0.55);
+	border-left: none;
+}
+
+.post-box .blog-content ul.list-style li {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-box .post-comments li:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.post-box .post-comments li .comment-info .name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-box .post-comments li .comment-info .name a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.post-box .post-comments li .comment-info .name h6 span {
+	color: rgba(255, 255, 255, 0.55);
+}
+
+.background.gradient {
+	background: -webkit-linear-gradient(top left, #17171b 0%, #28282f 100%);
+	background: linear-gradient(to bottom right, #17171b 0%, #28282f 100%);
+}
+
+.bg-bubbles li {
+	background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.content .title .first-word {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content .title:first-letter {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.info-list ul li strong:after {
+	background: #282828;
+}
+
+.content.blog .border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.post-comments .post-comment:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.info-list ul li:before {
+	background: -moz-radial-gradient(center, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at center, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.pager .nav-links {
+	background: rgba(0,0,0,0.1);
+}
+
+input, textarea, button, input[type="submit"] {
+	border-color: #666;
+}
+
+.content-sidebar {
+	background: #282828;
+}
+
+.content-sidebar .close {
+	background: #3b3b42;
+}
+
+.content-sidebar .close:before, .content-sidebar .close:after {
+	background: rgba(255,255,255,0.85);
+}
+
+.content-sidebar .widget ul li a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.content-sidebar h2.widget-title,
+.content-sidebar h2 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.search-form input.search-field,
+.wp-block-search input[type=search] {
+	border-color: #666;
+}
+
+.search-form input.search-submit,
+.wp-block-search .wp-block-search__button {
+	filter: brightness(0) invert(1);
+}
+
+.content-sidebar .widget ul li {
+	border-color: rgba(255,255,255,0.15);
+}
+
+.content-sidebar .widget ul li:last-child {
+	border-color: rgba(255,255,255,0.15);
+}
+
+.resume-items .resume-item .date {
+	color: #666;
+	border-color: #666;
+}
+
+.post-comments .post-comment .desc span.comment-reply a {
+	color: rgba(255,255,255,0.9);
+}
+
+.post-comments .post-comment .desc span.comment-reply {
+	color: rgba(255,255,255,0.9);
+}
+
+.navigation.post-navigation .nav-links a:hover {
+	color: #ddd;
+}
+
+.post-comments ul.children {
+	background: #3b3b42;
+}
+
+.preloader {
+	background: #3b3b42;
+}
+
+@media (max-width: 1240px) {
+	.blog-single .info-list ul li, .content.contacts .info-list ul li {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.content.contacts .info-list ul, .blog-single .info-list ul {
+		margin: -11px 0 0 0;
+	}
+
+	.blog-single .info-list ul {
+		margin: -11px 0 30px 0;
+	}
+}
+
+.content-sidebar .main-menu ul li a {
+	color: rgba(255,255,255,0.9);
+}
+
+.content-sidebar .main-menu ul li:after, .content-sidebar .main-menu ul li:first-child::before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.button {
+	padding: 0;
+	background: transparent;
+}
+
+.button .text {
+	padding-left: 0;
+}
+
+.profile .main-menu-fixed:before {
+	background: #282828;
+}
+
+.profile .main-menu ul li a {
+	color: rgba(255,255,255,0.9);
+}
+
+.profile .main-menu .menu-main-menu-container ul li a:hover, .profile .main-menu .menu-main-menu-container ul li a:hover .icon {
+    color: rgba(255,255,255,0.9);
+}
+
+.header .profile .title {
+	color: rgba(255,255,255,0.9);
+}
+
+input[type="submit"] {
+	border-color: #44454c;
+	background: #44454c;
+	color: #fff;
+}
+
+input[type="submit"]:hover {
+	border-color: #4b4c54;
+	background: #4b4c54;
+}
+
+@media (max-width: 680px) {
+.header .top-menu:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+.header .top-menu ul.menu {
+	background: #282828;
+}
+}
+
+.revs-item .text {
+	color: rgba(255,255,255,0.9);
+}
+
+.revs-item .text:before, .revs-item .text:after {
+	background: url(../images/quote_d.svg) no-repeat;
+	background-size: contain;
+}
+
+.revs-item .info .name {
+	color: rgba(255,255,255,0.9);
+}
+
+.revs-item .info .company {
+	color: #999999;
+}
+
+.fc-calendar .fc-content span.fc-date {
+	background: #3e4148;
+}
+
+.custom-header {
+	border-bottom-color: rgba(197, 202, 213, 0.15)!important;
+}
+
+.custom-header .custom-month {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.fc-calendar .fc-body {
+	border-color: rgba(197, 202, 213, 0.15);
+}
+
+.fc-calendar .fc-row {
+	border-bottom-color: rgba(197, 202, 213, 0.15);
+}
+
+.fc-calendar .fc-row > div {
+	border-right-color: rgba(197, 202, 213, 0.15);
+}
+
+.fc-calendar .fc-content span.fc-date {
+	background: #3e4148;
+}
+
+.custom-content-reveal {
+	background: rgba(33, 33, 33, 1);
+}
+
+.custom-content-reveal .event-name {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.custom-content-reveal span.custom-content-close {
+	background: transparent!important;
+}
+
+/*
+	New Woocommerce Styles
+*/
+
+.header .cart-btn {
+	background: #282828;
+}
+
+.header .cart-btn .cart-icon {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.header .cart-btn .cart-icon .cart-count {
+	color: #fff;
+}
+
+.header .cart-btn .cart-widget {
+	background: #282828;
+}
+
+.header .cart-btn .cart-widget:before {
+	border-right-color: 6px solid #282828;
+}
+
+.woocommerce ul.cart_list li a,
+.woocommerce ul.product_list_widget li a,
+ul.cart_list li a,
+ul.product_list_widget li a {
+	color: #fff;
+}
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-mini-cart__buttons #respond input#submit:hover,
+.woocommerce-mini-cart__buttons a.button:hover,
+.woocommerce-mini-cart__buttons button.button:hover,
+.woocommerce-mini-cart__buttons input.button:hover {
+	background-color: #dfdcde;
+	color: #515151;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+	background-color: transparent;
+	color: inherit;
+}
+
+.woocommerce ul.products.border-line-v:before,
+.woocommerce ul.products.border-line-v:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce ul.products.border-line-v:after,
+.woocommerce ul.products.border-line-v:after {
+	background: -moz-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(top, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at top, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce ul.products li.product .price {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+	background: none;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce .woocommerce-review-link {
+	color: #999999;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {
+	color: rgba(255, 255, 255, 1);
+}
+
+.woocommerce #reviews #comments ol.commentlist li:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+time.woocommerce-review__published-date {
+	color: #999;
+}
+
+.woocommerce table.shop_table {
+	border-color: rgba(197, 202, 213, 0.15);
+}
+
+#add_payment_method .cart-collaterals .cart_totals tr td,
+#add_payment_method .cart-collaterals .cart_totals tr th,
+.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.woocommerce-cart .cart-collaterals .cart_totals tr th,
+.woocommerce-checkout .cart-collaterals .cart_totals tr td,
+.woocommerce-checkout .cart-collaterals .cart_totals tr th {
+    border-top-color: rgba(197, 202, 213, 0.15);
+}
+
+.woocommerce table.shop_table th {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce table.shop_table td {
+	border-top-color: rgba(197, 202, 213, 0.15);
+}
+
+.woocommerce table.shop_table td a {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce a.remove {
+	color: rgba(255, 255, 255, 0.9)!important;
+}
+
+.woocommerce ul.products li.product .button.add_to_cart_button.added {
+	color: #fff;
+}
+
+.select2-container .select2-selection--single {
+	color: rgba(255, 255, 255, 0.9);
+	border-color: #4c4c54;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce-MyAccount-navigation ul:before {
+	background: -moz-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: -webkit-radial-gradient(left, ellipse cover, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+	background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link a {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link.is-active {
+	background: #4c4c54;
+}
+
+.woocommerce-MyAccount-navigation li.woocommerce-MyAccount-navigation-link.is-active a {
+	color: rgba(255, 255, 255, 1);
+}
+
+.select2-dropdown {
+	background-color: #4c4c54;
+	border-color: #4c4c54;
+}
+
+.select2-results__option {
+	color: rgba(255,255,255,0.9);
+}
+
+.select2-container--default .select2-results__option[aria-selected=true],
+.select2-container--default .select2-results__option[data-selected=true] {
+	background: rgba(0,0,0,0.1);
+	color: #fff;
+}
+
+.woocommerce table.shop_table tbody th,
+.woocommerce table.shop_table tfoot td,
+.woocommerce table.shop_table tfoot th {
+	border-top-color: rgba(197, 202, 213, 0.15);
+}
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+	background: #4c4c54;
+}
+
+.woocommerce .woocommerce-customer-details address {
+	border-color: rgba(197, 202, 213, 0.15);
+}
+
+.header .top-menu {
+	background-color: #282828;
+}
+
+.header .top-menu.menu-minimal ul li a .name,
+.header .cart-btn .cart-icon .cart-count,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt,
+.woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce #respond input#submit, .woocommerce a.button,
+.woocommerce button.button, .woocommerce input.button .woocommerce-mini-cart__buttons #respond input#submit,
+.woocommerce-mini-cart__buttons a.button, .woocommerce-mini-cart__buttons button.button,
+.woocommerce-mini-cart__buttons input.button,
+.woocommerce span.onsale,
+.woocommerce .woocommerce-ordering select {
+	color: #282828!important;
+}
+
+.theme-style-classic.theme-style-dark .info-list ul li strong {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mfp-content .info-list ul li strong {
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.mode-switch-btn {
+	background: #282828;
+}
+
+/*style blured*/
+.theme-style-blured .card-inner {
+	background: -webkit-linear-gradient(to bottom, rgba(49,49,58,0) 75%, rgba(49,49,58,1) 100%) !important;
+	background: linear-gradient(to bottom, rgba(49,49,58,0) 75%, rgba(49,49,58,1) 100%) !important;
+}
+
+/*style textured*/
+.card-started .profile.full-style .lnk, 
+.card-started .profile.full-style .button {
+	color: #fff;
+}
+.rprof-after path:nth-child(3) {
+	fill: #282828;
+}
+.textured-icons-style .service-items .service-item .icon,
+.textured-icons-style .pricing-items .pricing-item .icon,
+.textured-icons-style .fuct-items .fuct-item .icon,
+.textured-icons-style .resume-title .icon,
+.textured-icons-style .skill-title .icon {
+	background-color: #282828 !important;
+}
+
+/*x-icon*/
+.card-started .profile .social a .ion path,
+.card-started .profile .social a .fab path,
+.card-started .profile .social a .fas path {
+	fill: rgba(255, 255, 255, 0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
