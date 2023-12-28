@@ -49,7 +49,7 @@ export default function ContactUs() {
                   </div>
                 </div>
               </section>
-              <section
+              {/* <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-b1f83ef elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="b1f83ef"
                 data-element_type="section"
@@ -82,7 +82,7 @@ export default function ContactUs() {
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
               <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-2f63e83 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="2f63e83"
@@ -113,7 +113,7 @@ export default function ContactUs() {
                                       {" "}
                                       <span> Address: </span>{" "}
                                     </strong>{" "}
-                                    <span> California, USA </span>
+                                    <span> Lahore, Pakistan </span>
                                   </li>
                                   <li>
                                     {" "}
@@ -121,7 +121,7 @@ export default function ContactUs() {
                                       {" "}
                                       <span> Email: </span>{" "}
                                     </strong>{" "}
-                                    <span> adlard@example.com </span>
+                                    <span> abdulkhaliqsubhani09@gmail.com </span>
                                   </li>
                                   <li>
                                     {" "}
@@ -129,7 +129,7 @@ export default function ContactUs() {
                                       {" "}
                                       <span> Phone: </span>{" "}
                                     </strong>{" "}
-                                    <span> +123 654 78900 </span>
+                                    <span> +92 318 4161753 </span>
                                   </li>
                                   <li>
                                     {" "}
@@ -150,7 +150,8 @@ export default function ContactUs() {
                   </div>
                 </div>
               </section>
-              <section
+              <hr />
+              {/* <section
                 class="elementor-section elementor-top-section elementor-element elementor-element-3fc0411 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="3fc0411"
                 data-element_type="section"
@@ -351,7 +352,7 @@ export default function ContactUs() {
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
             </div>
           </div>
         </div>

@@ -1,8 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link , useLocation } from "react-router-dom";
 import { Icon } from "@iconify/react";
 
+
 export default function SidePanel() {
+
+
+  const location = useLocation();
+
+  const isActive = (path) => {
+    return location.pathname === path;
+  };
   return (
     <>
       <header className="header">
@@ -29,8 +37,9 @@ export default function SidePanel() {
             <ul id="menu-main-menu" className="menu">
               <li
                 data-id="menu-item-107"
-                className=" menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-142 current_page_item"
-              >
+                className={`menu-item menu-item-type-post_type menu-item-object-page ${
+                  isActive("/") ? "current-menu-item" : ""
+                }`}              >
                 <Link to="/" className="one-page-menu-item">
                   {/* <span className="icon bx bx-user"></span> */}
                   <Icon icon="bx:user" className="icon" />
@@ -39,8 +48,9 @@ export default function SidePanel() {
               </li>
               <li
                 data-id="menu-item-108"
-                className=" menu-item menu-item-type-post_type menu-item-object-page"
-              >
+                className={`menu-item menu-item-type-post_type menu-item-object-page ${
+                  isActive("/resume") ? "current-menu-item" : ""
+                }`}              >
                 <Link to="/resume" className="one-page-menu-item">
                   <Icon icon="bx:list-ul" className="icon" />
                   <span className="name">Resume</span>
@@ -48,25 +58,21 @@ export default function SidePanel() {
               </li>
               <li
                 data-id="menu-item-109"
-                className=" menu-item menu-item-type-post_type menu-item-object-page"
+                className={`menu-item menu-item-type-post_type menu-item-object-page ${
+                  isActive("/works") ? "current-menu-item" : ""
+                }`}
               >
                 <Link to="/works" className="one-page-menu-item">
                   <Icon icon="bx:network-chart" className="icon" />
                   <span className="name">Works</span>
                 </Link>
               </li>
-              {/* <li
-                data-id="menu-item-110"
-                className=" menu-item menu-item-type-post_type menu-item-object-page"
-              >
-                <a href="#blog" className="one-page-menu-item">
-                  <span className="icon far fa-comment-dots"></span>
-                  <span className="name">Blog</span>
-                </a>
-              </li> */}
+           
               <li
                 data-id="menu-item-111"
-                className=" menu-item menu-item-type-post_type menu-item-object-page"
+                className={`menu-item menu-item-type-post_type menu-item-object-page ${
+                  isActive("/contactus") ? "current-menu-item" : ""
+                }`}
               >
                 <Link to="/contactus" className="one-page-menu-item">
                   <Icon icon="bx:envelope" className="icon" />{" "}
@@ -79,7 +85,7 @@ export default function SidePanel() {
               >
                 <a href="#lessons" className="one-page-menu-item">
                 <Icon icon="la:facebook" className="icon" />{" "}
-                  <span className="name">Lessons</span>
+                  <span className="name">Facebook</span>
                 </a>
               </li>  
               <li
@@ -89,27 +95,25 @@ export default function SidePanel() {
                 <a href="#lessons" className="one-page-menu-item">
                 <Icon icon="la:instagram" className="icon" />{" "}
 
-                  <span className="name">Lessons</span>
-                </a>
-              </li> <li
-                data-id="menu-item-333"
-                className=" menu-item menu-item-type-post_type menu-item-object-page"
-              >
-                <a href="#lessons" className="one-page-menu-item">
-                <Icon icon="la:twitter" className="icon" />{" "}
-
-                  <span className="name">Lessons</span>
-                </a>
-              </li> <li
-                data-id="menu-item-333"
-                className=" menu-item menu-item-type-post_type menu-item-object-page"
-              >
-                <a href="#lessons" className="one-page-menu-item">
-                <Icon icon="la:linkdin" className="icon" />{" "}
-
-                  <span className="name">Lessons</span>
+                  <span className="name">Instagram</span>
                 </a>
               </li>
+              
+              
+              <Link to={"www.linkedin.com/in/abdul-khaliq-02a149252"}>
+               <li
+                data-id="menu-item-333"
+                className=" menu-item menu-item-type-post_type menu-item-object-page"
+              >
+                <Link to="www.linkedin.com/in/abdul-khaliq-02a149252" className="one-page-menu-item" target="_blank">
+                <Icon icon="la:linkedin" className="icon" />{" "}
+
+                  <span className="name">Linked-In</span>
+                </Link>
+              </li> 
+              
+              </Link>
+              
             </ul>
           </div>
         </div>

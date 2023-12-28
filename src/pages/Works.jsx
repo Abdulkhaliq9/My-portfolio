@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Zubair from "../assets/images/zubairsons.png";
+import RoadMax from "../assets/images/roadmax.png";
 
 export default function Works() {
   return (
@@ -46,51 +49,53 @@ export default function Works() {
                                     name="fl_radio"
                                     value=".grid-item"
                                   />
-                                  Works
+                                  Projects
                                 </label>
                               </div>
-                            
                             </div>
 
                             <div class="row grid-items border-line-v columns-2">
                               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-image">
                                 <div class="box-item">
                                   <div class="image">
-                                    <a
-                                      href="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/08AU6UaXZ2ao.jpg"
+                                    <Link
+                                      to="https://zubairsonsllc.com"
                                       class=""
                                       data-elementor-lightbox-title="ZOSS Clothing Logo"
                                       data-elementor-lightbox-slideshow="gallery-82"
+                                      target="_blank"
                                     >
                                       <img
                                         fetchpriority="high"
+                                        target="_blank"
                                         decoding="async"
                                         width="1000"
                                         height="800"
-                                        src="wp-content/uploads/sites/17/2020/04/work1-1.jpg"
+                                        src={Zubair}
                                         class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image"
                                         alt=""
-                                        srcset="
-                                            wp-content/uploads/sites/17/2020/04/work1-1.jpg         1000w,
-                                            wp-content/uploads/sites/17/2020/04/work1-1-300x240.jpg  300w,
-                                            wp-content/uploads/sites/17/2020/04/work1-1-768x614.jpg  768w,
-                                            wp-content/uploads/sites/17/2020/04/work1-1-184x147.jpg  184w
-                                          "
+                                        srcSet={`
+        ${Zubair} 1000w,
+        ${Zubair}-300x240.jpg 300w,
+        ${Zubair}-768x614.jpg 768w,
+        ${Zubair}-184x147.jpg 184w
+      `}
                                         sizes="(max-width: 1000px) 100vw, 1000px"
                                       />
                                       <span class="info">
                                         <span class="ion fas fa-image"></span>
                                       </span>
-                                    </a>
+                                    </Link>
                                   </div>
                                   <div class="desc">
-                                    <a
-                                      href="https://Vz4IfVNZzkgF.com/designer-2/portfolio-archive/zoss-clothing-logo/"
+                                    <Link
+                                      to="https://zubairsonsllc.com"
                                       class="name"
+                                      target="_blank"
                                     >
-                                      ZOSS Clothing Logo
-                                    </a>
-                                    <div class="category">Image</div>
+                                      Zubair Sons LLC
+                                    </Link>
+                                    <div class="category">Web</div>
                                   </div>
                                 </div>
                               </div>
@@ -98,28 +103,29 @@ export default function Works() {
                               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-gallery">
                                 <div class="box-item">
                                   <div class="image">
-                                    <a
-                                      href="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3.jpg"
+                                    <Link
+                                      to="https://roadmax.co"
                                       class=""
                                       data-elementor-lightbox-title="NUDE Branding Mockup"
                                       data-elementor-lightbox-slideshow="gallery-80"
+                                      target="_blank"
                                     >
                                       <noscript>
                                         <img
+                                         target="_blank"
                                           decoding="async"
                                           width="1000"
                                           height="1300"
-                                          src="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3.jpg"
+                                          src={RoadMax}
                                           class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image"
                                           alt=""
-                                          srcset="
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3.jpg          1000w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-231x300.jpg   231w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-788x1024.jpg  788w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-768x998.jpg   768w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-184x239.jpg   184w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-300x390.jpg   300w
-                                            "
+                                          srcset={`
+                                               ${RoadMax} 1000w,
+        ${RoadMax}-300x240.jpg 300w,
+        ${RoadMax}-768x614.jpg 768w,
+        ${RoadMax}-184x147.jpg 184w
+        ${RoadMax}-300x390.jpg   300w
+                                            `}
                                           sizes="(max-width: 1000px) 100vw, 1000px"
                                         />
                                       </noscript>
@@ -127,42 +133,49 @@ export default function Works() {
                                         decoding="async"
                                         width="1000"
                                         height="1300"
-                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201000%201300%22%3E%3C/svg%3E"
-                                        data-src="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3.jpg"
+                                        src={RoadMax}
+                                        target="_blank"
+                                        data-src={RoadMax}
                                         class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image"
                                         alt=""
-                                        data-srcset="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3.jpg 1000w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-231x300.jpg 231w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-788x1024.jpg 788w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-768x998.jpg 768w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-184x239.jpg 184w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-3-300x390.jpg 300w"
+                                        data-srcset={`
+                                        ${RoadMax} 1000w,
+ ${RoadMax}-300x240.jpg 300w,
+ ${RoadMax}-768x614.jpg 768w,
+ ${RoadMax}-184x147.jpg 184w
+ ${RoadMax}-300x390.jpg   300w
+                                     `}
                                         data-sizes="(max-width: 1000px) 100vw, 1000px"
                                       />
                                       <span class="info">
                                         <span class="ion fas fa-images"></span>
                                       </span>
-                                    </a>
+                                    </Link>
                                     <div id="gallery-80" class="mfp-hide">
-                                      <a
-                                        href="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-1.jpg"
+                                      <Link
+                                       target="_blank"
+                                        to="https://roadmax.co"
                                         data-elementor-lightbox-slideshow="gallery-80"
-                                        data-elementor-lightbox-title="NUDE Branding Mockup"
-                                      ></a>
-                                      <a
-                                        href="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work2-2.jpg"
+                                        data-elementor-lightbox-title="Road max"
+                                      ></Link>
+                                      <Link
+                                       target="_blank"
+                                        to="https://roadmax.co"
                                         data-elementor-lightbox-slideshow="gallery-80"
-                                        data-elementor-lightbox-title="NUDE Branding Mockup"
-                                      ></a>
+                                        data-elementor-lightbox-title="Road max"
+                                      ></Link>
                                     </div>
                                   </div>
                                   <div class="desc">
-                                    <a
-                                      href="https://Vz4IfVNZzkgF.com/designer-2/portfolio-archive/nude-branding-mockup/"
-                                      class="name"
-                                    >
-                                      NUDE Branding Mockup
-                                    </a>
-                                    <div class="category">Gallery</div>
+                                    <Link to="https://roadmax.co" class="name"
+                                     target="_blank">
+                                      Road Max
+                                    </Link>
+                                    <div class="category">Web</div>
                                   </div>
                                 </div>
                               </div>
-
+                              {/* 
                               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-gallery">
                                 <div class="box-item">
                                   <div class="image">
@@ -543,7 +556,7 @@ export default function Works() {
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
                               <div class="clear"></div>
                             </div>
                           </div>

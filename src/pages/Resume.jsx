@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 export default function Resume() {
   return (
     <>
@@ -98,19 +100,35 @@ export default function Resume() {
                                   />
                                 </div>
                                 <div className="date">
-                                  <span> 2013 - Present </span>
+                                  <span> 2023 - Present </span>
                                 </div>
                                 <div className="name">
-                                  <span> Art Director </span>
+                                  <span> Front-End Developer </span>
                                 </div>
                                 <div className="company">
-                                  <span> Envato Inc. </span>
+                                  <span> Acute Dev </span>
                                 </div>
                                 <div className="single-post-text">
                                   <div>
                                     <p>
-                                      Collaborate with creative and development
-                                      teams on the execution of ideas.
+                                      Currently, I am employed as a Front-End
+                                      Developer at Acute Dev, where my seasoned
+                                      expertise in web development is being
+                                      applied. In my freelance career, I
+                                      successfully managed various remote
+                                      projects, specializing in the creation of
+                                      diverse websites such as e-commerce
+                                      platforms, blogs, and portfolios.
+                                      Proficient in HTML, CSS, and JavaScript, I
+                                      possess a comprehensive skill set that
+                                      allows me to craft seamless user
+                                      experiences. My commitment to delivering
+                                      high-quality results is supported by a
+                                      strong work ethic and effective
+                                      communication skills, enabling me to
+                                      translate client requirements into
+                                      functional and visually appealing
+                                      websites.
                                     </p>
                                   </div>
                                 </div>
@@ -133,25 +151,37 @@ export default function Resume() {
                                   />
                                 </div>
                                 <div className="date">
-                                  <span> 2011 - 2012 </span>
+                                  <span> 2022 - 2023 </span>
                                 </div>
                                 <div className="name">
-                                  <span> Team Leader </span>
+                                  <span> Front-End Developer </span>
                                 </div>
                                 <div className="company">
-                                  <span> Google Inc. </span>
+                                  <span> As a freelancer </span>
                                 </div>
                                 <div className="single-post-text">
                                   <div>
                                     <p>
-                                      Monitored technical aspects of the web
-                                      design for projects. What to expect from
-                                      the design process.
+                                      As a seasoned freelancer, I have
+                                      successfully executed projects remotely,
+                                      specializing in the development of diverse
+                                      websites, including e-commerce platforms,
+                                      blogs, and portfolios. My work reflects a
+                                      comprehensive skill set in web
+                                      development, encompassing HTML, CSS, and
+                                      JavaScript, with particular expertise in
+                                      crafting seamless user experiences. I am
+                                      adept at translating client requirements
+                                      into functional and visually appealing
+                                      websites. My commitment to delivering
+                                      high-quality results is complemented by a
+                                      strong work ethic and effective
+                                      communication skills.
                                     </p>
                                   </div>
                                 </div>
                               </div>
-                              <div className="resume-item border-line-h">
+                              {/* <div className="resume-item border-line-h">
                                 <div className="image">
                                   <noscript>
                                     <img
@@ -185,7 +215,8 @@ export default function Resume() {
                                     </p>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
+                              <hr />
                             </div>
                           </div>
                         </div>
@@ -224,82 +255,81 @@ export default function Resume() {
                             <div className="resume-items">
                               <div className="resume-item border-line-h">
                                 <div className="date">
-                                  <span> 2006 - 2008 </span>
+                                  <span> 2019 - 2023 </span>
                                 </div>
                                 <div className="name">
-                                  <span> Art University </span>
+                                  <span> University Of Punjab </span>
                                 </div>
                                 <div className="company">
-                                  <span> New York </span>
+                                  <span> Lahore </span>
                                 </div>
                                 <div className="single-post-text">
                                   <div>
                                     <p>
-                                      Bachelor's Degree in Computer Science
-                                      Technical Institute, Jefferson, Missouri.
+                                      Bachelor's Degree in Information Technology
+                                      
                                     </p>
                                   </div>
                                 </div>
-                                <a
+                                {/* <a
                                   href="https://FbLqk3cumBRB.com/import/ryancv/designer/uploads/2022/07/certificate.jpeg"
                                   className="lnk lnk-2"
                                 >
                                   <span className="text"> Certificate </span>
                                   <i className="fas fa-angle-right"></i>
-                                </a>
+                                </a> */}
                               </div>
                               <div className="resume-item border-line-h">
                                 <div className="date">
-                                  <span> 2005 - 2006 </span>
+                                  <span> 2017 - 2019 </span>
                                 </div>
                                 <div className="name">
-                                  <span> Art Course </span>
+                                  <span> Govt. College Of TownShip  </span>
                                 </div>
                                 <div className="company">
-                                  <span> Paris </span>
+                                  <span> Lahore </span>
                                 </div>
                                 <div className="single-post-text">
                                   <div>
                                     <p>
-                                      Coursework - Sketch, Adobe Photoshop, Web
-                                      Design.
+                                      Intermediate
                                     </p>
                                   </div>
                                 </div>
-                                <a
+                                {/* <a
                                   href="https://FbLqk3cumBRB.com/import/ryancv/designer/uploads/2022/07/certificate.jpeg"
                                   className="lnk lnk-2"
                                 >
                                   <span className="text"> Certificate </span>
                                   <i className="fas fa-angle-right"></i>
-                                </a>
+                                </a> */}
                               </div>
                               <div className="resume-item border-line-h">
                                 <div className="date">
-                                  <span> 2004 - 2005 </span>
+                                  <span> 2015 - 2015 </span>
                                 </div>
                                 <div className="name">
-                                  <span> Web Design Course </span>
+                                  <span> Computer Course </span>
                                 </div>
                                 <div className="company">
-                                  <span> London </span>
+                                  <span> Lahore </span>
                                 </div>
                                 <div className="single-post-text">
                                   <div>
                                     <p>
-                                      Created and converted Sketch layouts for
-                                      web design.
+                                     Ilm o Hunar
                                     </p>
                                   </div>
                                 </div>
-                                <a
+                                {/* <a
                                   href="https://FbLqk3cumBRB.com/import/ryancv/designer/uploads/2022/07/certificate.jpeg"
                                   className="lnk lnk-2"
                                 >
                                   <span className="text"> Certificate </span>
                                   <i className="fas fa-angle-right"></i>
-                                </a>
+                                </a> */}
                               </div>
+                                <hr />
                             </div>
                           </div>
                         </div>
@@ -410,46 +440,33 @@ export default function Resume() {
                                   <div className="progress">
                                     <div
                                       className="percentage"
-                                      style={{width: "90%"}}
+                                      style={{ width: "90%" }}
                                     ></div>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> German </span>
+                                    <span> urdu </span>
                                   </div>
                                   <div className="progress">
                                     <div
                                       className="percentage"
-                                      style={{width: "90%"}}
-
+                                      style={{ width: "90%" }}
                                     ></div>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> Italian </span>
+                                    <span> Punjabi </span>
                                   </div>
                                   <div className="progress">
                                     <div
                                       className="percentage"
-                                      style={{width: "30%"}}
-
+                                      style={{ width: "30%" }}
                                     ></div>
                                   </div>
                                 </li>
-                                <li className="border-line-h">
-                                  <div className="name">
-                                    <span> French </span>
-                                  </div>
-                                  <div className="progress">
-                                    <div
-                                      className="percentage"
-                                      style={{width: "70%"}}
-
-                                    ></div>
-                                  </div>
-                                </li>
+                              
                               </ul>
                             </div>
                           </div>
@@ -489,61 +506,40 @@ export default function Resume() {
                               </div>
                               <ul>
                                 <li className="border-line-h">
-                                  <div className="name">
-                                    <span> iOS and android apps </span>
+                                  <div className="">
+                              
+
+                                    <span> Custom Design</span>
                                   </div>
                                   <div className="progress">
                                     <div className="percentage"></div>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
-                                  <div className="name">
-                                    <span> Create logo design </span>
+                                  <div className="">
+                                    <span> Web Designs </span>
                                   </div>
                                   <div className="progress">
                                     <div className="percentage"></div>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
-                                  <div className="name">
-                                    <span> Design for print </span>
+                                  <div className="">
+                                    <span> Customization </span>
                                   </div>
                                   <div className="progress">
                                     <div className="percentage"></div>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
-                                  <div className="name">
-                                    <span> Modern and mobile-ready </span>
+                                  <div className="">
+                                    <span> Logo Design </span>
                                   </div>
                                   <div className="progress">
                                     <div className="percentage"></div>
                                   </div>
                                 </li>
-                                <li className="border-line-h">
-                                  <div className="name">
-                                    <span> Graphics and animations </span>
-                                  </div>
-                                  <div className="progress">
-                                    <div className="percentage"></div>
-                                  </div>
-                                </li>
-                                <li className="border-line-h">
-                                  <div className="name">
-                                    <span> Search engine marketing </span>
-                                  </div>
-                                  <div className="progress">
-                                    <div className="percentage"></div>
-                                  </div>
-                                </li>
-                                <li className="border-line-h">
-                                  <div className="name">
-                                    <span> business card mockups </span>
-                                  </div>
-                                  <div className="progress">
-                                    <div className="percentage"></div>
-                                  </div>
-                                </li>
+                             
                               </ul>
                             </div>
                           </div>
@@ -581,7 +577,7 @@ export default function Resume() {
                   </div>
                 </div>
               </section>
-              <section
+              {/* <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-af3cd27 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="af3cd27"
                 data-element_type="section"
@@ -745,7 +741,7 @@ export default function Resume() {
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
             </div>
           </div>
         </div>

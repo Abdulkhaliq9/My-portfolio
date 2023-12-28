@@ -130,15 +130,15 @@ export default function About() {
                                     </svg>
                                   </div>
                                   <div className="name">
-                                    <span> Logo Design </span>
+                                    <span> Customization </span>
                                   </div>
                                   <div className="desc">
                                     <div>
-                                      <p>
+                                      {/* <p>
                                         Basic categories of logo styles are:
                                         word, letter, brand, combination marks
                                         and emblems.
-                                      </p>
+                                      </p> */}
                                     </div>
                                   </div>
                                 </div>
@@ -161,11 +161,11 @@ export default function About() {
                                   </div>
                                   <div className="desc">
                                     <div>
-                                      <p>
+                                      {/* <p>
                                         Web designers craft the overall vision
                                         and plan for a website layouts, mobile
                                         first, posters, branding.
-                                      </p>
+                                      </p> */}
                                     </div>
                                   </div>
                                 </div>
@@ -184,15 +184,15 @@ export default function About() {
                                     </svg>
                                   </div>
                                   <div className="name">
-                                    <span> Business Card </span>
+                                    <span>Custome Code</span>
                                   </div>
                                   <div className="desc">
                                     <div>
-                                      <p>
+                                      {/* <p>
                                         Every business card should include your
                                         name, the company name, skills, cases
                                         and contacts.
-                                      </p>
+                                      </p> */}
                                     </div>
                                   </div>
                                 </div>
@@ -211,14 +211,14 @@ export default function About() {
                                     </svg>
                                   </div>
                                   <div className="name">
-                                    <span> Mobile App Design </span>
+                                    <span> Figma To Code </span>
                                   </div>
                                   <div className="desc">
                                     <div>
-                                      <p>
-                                        Create an animated app prototype and ask
-                                        people to test it and provide feedback.
-                                      </p>
+                                        {/* <p>
+                                          Create an animated app prototype and ask
+                                          people to test it and provide feedback.
+                                        </p> */}
                                     </div>
                                   </div>
                                 </div>
@@ -308,7 +308,7 @@ export default function About() {
                                       className="percentage"
                                       style={{ width: "90%" }}
                                     ></div>
-                                    <span>90%</span>
+                                    <span>70%</span>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
@@ -320,19 +320,19 @@ export default function About() {
                                       className="percentage"
                                       style={{ width: "75%" }}
                                     ></div>
-                                    <span>75%</span>
+                                    <span>85%</span>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> Illustration </span>
+                                    <span> Custom Code </span>
                                   </div>
                                   <div className="progress p85">
                                     <div
                                       className="percentage"
                                       style={{ width: "85%" }}
                                     ></div>
-                                    <span>85%</span>
+                                    <span>90%</span>
                                   </div>
                                 </li>
                                 <li className="border-line-h">
@@ -387,7 +387,7 @@ export default function About() {
                               <ul>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> Sketch </span>
+                                    <span> HTML </span>
                                   </div>
                                   <div className="progress">
                                     <div
@@ -398,7 +398,7 @@ export default function About() {
                                 </li>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> Adobe Photoshop </span>
+                                    <span> CSS </span>
                                   </div>
                                   <div className="progress">
                                     <div
@@ -409,7 +409,7 @@ export default function About() {
                                 </li>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> Adobe illustration </span>
+                                    <span> JavaScript </span>
                                   </div>
                                   <div className="progress">
                                     <div
@@ -420,7 +420,7 @@ export default function About() {
                                 </li>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> Figma </span>
+                                    <span> BootStrap </span>
                                   </div>
                                   <div className="progress">
                                     <div
@@ -431,7 +431,7 @@ export default function About() {
                                 </li>
                                 <li className="border-line-h">
                                   <div className="name">
-                                    <span> Adobe XD </span>
+                                    <span> React Js </span>
                                   </div>
                                   <div className="progress">
                                     <div
@@ -779,34 +779,18 @@ export default function About() {
                                 <div className="revs-item">
                                   <div className="text">
                                     <div>
-                                      Lorem ipsum dolor sit amet, consectetur
-                                      adipiscing elit. Lorem ipsum dolor sit
-                                      amet, consectetur adipiscing elit.
+                                    Writing the first 90 percent of a computer program takes 90 percent of the time. The remaining ten percent also takes 90 percent of the time, and the final touches also take 90 percent of the time.
                                     </div>
                                   </div>
                                   <div className="user">
-                                    <div className="img">
-                                      <noscript>
-                                        <img
-                                          decoding="async"
-                                          src="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2022/07/testi2-184x184.jpg"
-                                          alt="Ryan Adlard"
-                                        />
-                                      </noscript>
-                                      <img
-                                        className="lazyload"
-                                        decoding="async"
-                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
-                                        data-src="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2022/07/testi2-184x184.jpg"
-                                        alt="Ryan Adlard"
-                                      />
-                                    </div>
+                                   
                                     <div className="info">
-                                      <div className="name">Ryan Adlard</div>
-                                      <div className="company">
+                                      <div className="name">– N.J. Rubenking.</div>
+                                      {/* <div className="company">
                                         Web Designer
                                       </div>
-                                    </div>
+                                      */}
+                                    </div> 
                                     <div className="clear"></div>
                                   </div>
                                 </div>
@@ -820,7 +804,7 @@ export default function About() {
                   </div>
                 </div>
               </section>
-              <section
+              {/* <section
                 className="elementor-section elementor-top-section elementor-element elementor-element-18b4760 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                 data-id="18b4760"
                 data-element_type="section"
@@ -922,7 +906,7 @@ export default function About() {
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
             </div>
           </div>
         </div>
