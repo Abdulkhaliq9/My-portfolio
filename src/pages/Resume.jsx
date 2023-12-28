@@ -306,7 +306,7 @@ export default function Resume() {
                               </div>
                               <div className="resume-item border-line-h">
                                 <div className="date">
-                                  <span> 2015 - 2015 </span>
+                                  <span> 2015 - 2016 </span>
                                 </div>
                                 <div className="name">
                                   <span> Computer Course </span>
