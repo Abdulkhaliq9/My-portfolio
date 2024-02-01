@@ -2,6 +2,7 @@ import React from "react";
 import "../css/theme.css";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+import CV from "../assets/cv.pdf"
 
 export default function Profile() {
 
@@ -85,8 +86,8 @@ export default function Profile() {
           </div>
           <div className="lnks">
             {" "}
-            <a
-              href="../assests/cv.pdf"
+            <Link
+              to={CV}
               className="lnk "
               style={{ color: "#f5f5f5" }}
               target="_blank"
@@ -95,7 +96,7 @@ export default function Profile() {
               {" "}
               <span className="text">Download CV</span>{" "}
               <Icon icon="bx:cloud-download" className="ion" />
-            </a>{" "}
+            </Link>{" "}
             <Link
               to="/contactus"
               className="lnk"
