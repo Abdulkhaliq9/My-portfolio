@@ -90,7 +90,7 @@ const cvLink ="../assets/cv.pdf"
               className="lnk "
               style={{ color: "#f5f5f5" }}
               target="_blank"
-              download= "cv.pdf"
+              download= "../assets/cv.pdf"
             >
               {" "}
               <span className="text">Download CV</span>{" "}
