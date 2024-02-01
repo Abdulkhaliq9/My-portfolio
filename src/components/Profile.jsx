@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function Profile() {
 
-const cvLink ="../assets/cv.pdf"
+// const cvLink ="../assets/cv.pdf"
 
   return (
     <>
@@ -85,17 +85,17 @@ const cvLink ="../assets/cv.pdf"
           </div>
           <div className="lnks">
             {" "}
-            <Link
-              to={cvLink}
+            <a
+              href="../assests/cv.pdf"
               className="lnk "
               style={{ color: "#f5f5f5" }}
               target="_blank"
-              download= "../assets/cv.pdf"
+              download
             >
               {" "}
               <span className="text">Download CV</span>{" "}
               <Icon icon="bx:cloud-download" className="ion" />
-            </Link>{" "}
+            </a>{" "}
             <Link
               to="/contactus"
               className="lnk"
