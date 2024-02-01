@@ -2,9 +2,10 @@ import React from "react";
 import "../css/theme.css";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
+
 export default function Profile() {
 
-const cvLink ="../assets/images/cv.pdf"
+const cvLink ="../assets/cv.pdf"
 
   return (
     <>
