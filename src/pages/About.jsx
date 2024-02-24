@@ -46,9 +46,7 @@ export default function About() {
                                   <div>
                                     <strong>Hello! I’m Abdul Khaliq.</strong>
                                     {/* Developer &amp; Photographer from USA, */}
-                                    Front-End Developer from Pakistan. I have rich experience in web
-                                    site layout. I love to talk
-                                    with you about our unique.
+                                     I am a budding freelance React.js developer, passionate about crafting engaging user experiences and dynamic web applications. With a strong foundation in frontend development and a thirst for learning, I'm excited to collaborate with clients to bring their projects to life using the power of React.js. Let's work together to build something amazing!
                                   </div>
                                 </div>
                               </div>
