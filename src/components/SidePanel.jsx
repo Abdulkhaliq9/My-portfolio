@@ -83,12 +83,12 @@ export default function SidePanel() {
                 data-id="menu-item-333"
                 className=" menu-item menu-item-type-post_type menu-item-object-page"
               >
-                <a href="#lessons" className="one-page-menu-item">
-                <Icon icon="la:facebook" className="icon" />{" "}
-                  <span className="name">Facebook</span>
-                </a>
+                <Link to="https://github.com/Abdulkhaliq9" className="one-page-menu-item">
+                <Icon icon="la:github" className="icon" />{" "}
+                  <span className="name">GitHub</span>
+                </Link>
               </li>  
-              <li
+              {/* <li
                 data-id="menu-item-333"
                 className=" menu-item menu-item-type-post_type menu-item-object-page"
               >
@@ -98,21 +98,21 @@ export default function SidePanel() {
                   <span className="name">Instagram</span>
                 </a>
               </li>
+               */}
               
-              
-              <Link to={"www.linkedin.com/in/abdul-khaliq-02a149252"}>
+              {/* <Link to= "www.linkedin.com/in/abdul-khaliq-subhani"> */}
                <li
                 data-id="menu-item-333"
                 className=" menu-item menu-item-type-post_type menu-item-object-page"
               >
-                <Link to="www.linkedin.com/in/abdul-khaliq-02a149252" className="one-page-menu-item" target="_blank">
+                <Link to="https://www.linkedin.com/in/abdul-khaliq-subhani" className="one-page-menu-item">
                 <Icon icon="la:linkedin" className="icon" />{" "}
 
                   <span className="name">Linked-In</span>
                 </Link>
               </li> 
               
-              </Link>
+              {/* </Link> */}
               
             </ul>
           </div>
