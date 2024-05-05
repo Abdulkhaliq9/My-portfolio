@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Zubair from "../assets/images/zubairsons.png";
 import RoadMax from "../assets/images/roadmax.png";
+import MegaLod from "../assets/images/megaload.png";
 
 export default function Works() {
   return (
@@ -179,73 +180,87 @@ export default function Works() {
                                 </div>
                               </div>
                               
+                              
+                              
                               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-gallery">
                                 <div class="box-item">
                                   <div class="image">
-                                    <a
-                                      href="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1.jpg"
+                                    <Link
+                                      to="https://megalodonwholesaleusa.com"
                                       class=""
-                                      data-elementor-lightbox-title="Art Poster Mockup"
-                                      data-elementor-lightbox-slideshow="gallery-77"
+                                      data-elementor-lightbox-title="NUDE Branding Mockup"
+                                      data-elementor-lightbox-slideshow="gallery-80"
+                                      target="_blank"
                                     >
                                       <noscript>
                                         <img
+                                          target="_blank"
                                           decoding="async"
                                           width="1000"
-                                          height="1200"
-                                          src="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1.jpg"
+                                          height="1300"
+                                          src={MegaLod}
                                           class="attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image"
                                           alt=""
-                                          srcset="
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1.jpg          1000w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-250x300.jpg   250w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-853x1024.jpg  853w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-768x922.jpg   768w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-184x221.jpg   184w,
-                                              https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-300x360.jpg   300w
-                                            "
+                                          srcset={`
+                                               ${MegaLod} 1000w,
+        ${MegaLod}-300x240.jpg 300w,
+        ${MegaLod}-768x614.jpg 768w,
+        ${MegaLod}-184x147.jpg 184w
+        ${MegaLod}-300x390.jpg   300w
+                                            `}
                                           sizes="(max-width: 1000px) 100vw, 1000px"
                                         />
                                       </noscript>
                                       <img
                                         decoding="async"
                                         width="1000"
-                                        height="1200"
-                                        src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%201000%201200%22%3E%3C/svg%3E"
-                                        data-src="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1.jpg"
+                                        height="1300"
+                                        src={MegaLod}
+                                        target="_blank"
+                                        data-src={MegaLod}
                                         class="lazyload attachment-ryancv_600xauto size-ryancv_600xauto wp-post-image"
                                         alt=""
-                                        data-srcset="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1.jpg 1000w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-250x300.jpg 250w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-853x1024.jpg 853w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-768x922.jpg 768w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-184x221.jpg 184w, https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3-1-300x360.jpg 300w"
+                                        data-srcset={`
+                                        ${MegaLod} 1000w,
+ ${MegaLod}-300x240.jpg 300w,
+ ${MegaLod}-768x614.jpg 768w,
+ ${MegaLod}-184x147.jpg 184w
+ ${MegaLod}-300x390.jpg   300w
+                                     `}
                                         data-sizes="(max-width: 1000px) 100vw, 1000px"
                                       />
                                       <span class="info">
                                         <span class="ion fas fa-images"></span>
                                       </span>
-                                    </a>
-                                    <div id="gallery-77" class="mfp-hide">
-                                      <a
-                                        href="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3_2.jpg"
-                                        data-elementor-lightbox-slideshow="gallery-77"
-                                        data-elementor-lightbox-title="Art Poster Mockup"
-                                      ></a>
-                                      <a
-                                        href="https://Vz4IfVNZzkgF.com/designer-2/wp-content/uploads/sites/17/2020/04/work3_1.jpg"
-                                        data-elementor-lightbox-slideshow="gallery-77"
-                                        data-elementor-lightbox-title="Art Poster Mockup"
-                                      ></a>
+                                    </Link>
+                                    <div id="gallery-80" class="mfp-hide">
+                                      <Link
+                                        target="_blank"
+                                        to="https://megalodonwholesaleusa.com"
+                                        data-elementor-lightbox-slideshow="gallery-80"
+                                        data-elementor-lightbox-title="Road max"
+                                      ></Link>
+                                      <Link
+                                        target="_blank"
+                                        to="https://megalodonwholesaleusa.com"
+                                        data-elementor-lightbox-slideshow="gallery-80"
+                                        data-elementor-lightbox-title="Road max"
+                                      ></Link>
                                     </div>
                                   </div>
                                   <div class="desc">
-                                    <a
-                                      href="https://Vz4IfVNZzkgF.com/designer-2/portfolio-archive/art-poster-mockup/"
+                                    <Link
+                                      to="https://megalodonwholesaleusa.com"
                                       class="name"
+                                      target="_blank"
                                     >
-                                      Art Poster Mockup
-                                    </a>
-                                    <div class="category">Gallery</div>
+                                      Megalod Whole Sale
+                                    </Link>
+                                    <div class="category">Web</div>
                                   </div>
                                 </div>
                               </div>
+
 
                               {/* <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-video">
                                 <div class="box-item">
