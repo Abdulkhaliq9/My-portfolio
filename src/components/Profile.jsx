@@ -2,7 +2,7 @@ import React from "react";
 import "../css/theme.css";
 import { Icon } from "@iconify/react";
 import { Link } from "react-router-dom";
-import CV from "../assets/images/cv.pdf"
+import CV from "../assets/images/Abdul-Khaliq-Frontend-dev.pdf"
 
 export default function Profile() {
 
