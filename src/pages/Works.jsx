@@ -112,7 +112,7 @@ export default function Works() {
                                     >
                                       <noscript>
                                         <img
-                                         target="_blank"
+                                          target="_blank"
                                           decoding="async"
                                           width="1000"
                                           height="1300"
@@ -153,13 +153,13 @@ export default function Works() {
                                     </Link>
                                     <div id="gallery-80" class="mfp-hide">
                                       <Link
-                                       target="_blank"
+                                        target="_blank"
                                         to="https://roadmax.co"
                                         data-elementor-lightbox-slideshow="gallery-80"
                                         data-elementor-lightbox-title="Road max"
                                       ></Link>
                                       <Link
-                                       target="_blank"
+                                        target="_blank"
                                         to="https://roadmax.co"
                                         data-elementor-lightbox-slideshow="gallery-80"
                                         data-elementor-lightbox-title="Road max"
@@ -167,15 +167,18 @@ export default function Works() {
                                     </div>
                                   </div>
                                   <div class="desc">
-                                    <Link to="https://roadmax.co" class="name"
-                                     target="_blank">
+                                    <Link
+                                      to="https://roadmax.co"
+                                      class="name"
+                                      target="_blank"
+                                    >
                                       Road Max
                                     </Link>
                                     <div class="category">Web</div>
                                   </div>
                                 </div>
                               </div>
-                              {/* 
+                              
                               <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-gallery">
                                 <div class="box-item">
                                   <div class="image">
@@ -244,7 +247,7 @@ export default function Works() {
                                 </div>
                               </div>
 
-                              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-video">
+                              {/* <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-video">
                                 <div class="box-item">
                                   <div class="image">
                                     <a
@@ -298,9 +301,9 @@ export default function Works() {
                                     <div class="category">Video</div>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
 
-                              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-image">
+                              {/* <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-image">
                                 <div class="box-item">
                                   <div class="image">
                                     <a
@@ -358,9 +361,9 @@ export default function Works() {
                                     <div class="category">Image</div>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
 
-                              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-video">
+                              {/* <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-video">
                                 <div class="box-item">
                                   <div class="image">
                                     <a
@@ -416,9 +419,9 @@ export default function Works() {
                                     <div class="category">Video</div>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
 
-                              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-content">
+                              {/* <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-content">
                                 <div class="box-item">
                                   <div class="image">
                                     <a
@@ -486,9 +489,9 @@ export default function Works() {
                                     </div>
                                   </div>
                                 </div>
-                              </div>
+                              </div> */}
 
-                              <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-content">
+                              {/* <div class="col col-d-6 col-t-6 col-m-12 border-line-h grid-item f-content">
                                 <div class="box-item">
                                   <div class="image">
                                     <a
