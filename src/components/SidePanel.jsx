@@ -108,7 +108,7 @@ export default function SidePanel() {
                 <Link to="https://www.linkedin.com/in/abdul-khaliq-subhani" className="one-page-menu-item">
                 <Icon icon="la:linkedin" className="icon" />{" "}
 
-                  <span className="name">Linked-In</span>
+                  <span className="name">LinkedIn</span>
                 </Link>
               </li> 
               
