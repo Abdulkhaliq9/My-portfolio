@@ -100,7 +100,7 @@ export default function Resume() {
                                   />
                                 </div>
                                 <div className="date">
-                                  <span> 2023 - Present </span>
+                                  <span> 2023 - 2024 </span>
                                 </div>
                                 <div className="name">
                                   <span> Front-End Developer </span>
