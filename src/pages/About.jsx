@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import { useParams } from "react-router-dom";
 // import "../../src/App.css"
 export default function About() {
-    
+
   return (
     <>
       <div className="card-inner animated active " id="card-home">
@@ -58,7 +58,7 @@ export default function About() {
                                         {" "}
                                         <span> Age: </span>{" "}
                                       </strong>
-                                      <span> 22 </span>
+                                      <span> 24 </span>
                                     </li>
                                     <li>
                                       <strong>
@@ -781,14 +781,14 @@ export default function About() {
                                     </div>
                                   </div>
                                   <div className="user">
-                                   
+
                                     <div className="info">
                                       <div className="name">– N.J. Rubenking.</div>
                                       {/* <div className="company">
                                         Web Designer
                                       </div>
                                       */}
-                                    </div> 
+                                    </div>
                                     <div className="clear"></div>
                                   </div>
                                 </div>
