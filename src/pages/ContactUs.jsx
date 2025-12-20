@@ -129,7 +129,7 @@ export default function ContactUs() {
                                       {" "}
                                       <span> Phone: </span>{" "}
                                     </strong>{" "}
-                                    <span> +92 318 4161753 </span>
+                                    <span> +92 319 0779627 </span>
                                   </li>
                                   <li>
                                     {" "}

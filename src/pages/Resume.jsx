@@ -1,6 +1,4 @@
-import React from "react";
-
-
+import React from 'react';
 
 export default function Resume() {
   return (
@@ -83,6 +81,67 @@ export default function Resume() {
                             </div>
                             <div className="resume-items">
                               <div className="resume-item border-line-h active">
+                                <div className="image">
+                                  <noscript>
+                                    <img
+                                      decoding="async"
+                                      src="https://FbLqk3cumBRB.com/import/ryancv/designer/uploads/2022/07/brand3_w.png"
+                                      alt="Art Director"
+                                    />
+                                  </noscript>
+                                  <img
+                                    className="lazyload"
+                                    decoding="async"
+                                    src="data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E"
+                                    data-src="https://FbLqk3cumBRB.com/import/ryancv/designer/uploads/2022/07/brand3_w.png"
+                                    alt="Art Director"
+                                  />
+                                </div>
+                                <div className="date">
+                                  <span> 2023 - Present </span>
+                                </div>
+                                <div className="name">
+                                  <span> MERN Stack </span>
+                                </div>
+                                <div className="company">
+                                  <span> Techcreatix </span>
+                                </div>
+                                <div className="single-post-text">
+                                  <div>
+                                    <p>
+                                      I am currently working as a MERN Stack
+                                      Developer at Techcreatix, where I design
+                                      and develop scalable web and application
+                                      solutions using modern JavaScript
+                                      frameworks and backend technologies. My
+                                      role involves building full-stack software
+                                      applications with a strong focus on
+                                      performance, security, and
+                                      maintainability. In parallel with my
+                                      professional role, I have successfully
+                                      delivered multiple remote freelance
+                                      projects, developing robust software
+                                      systems, web applications, and
+                                      business-driven platforms across various
+                                      domains. I have hands-on experience with
+                                      both MERN and MEVN stacks, enabling me to
+                                      create end-to-end solutions—from
+                                      interactive frontend interfaces to
+                                      efficient backend services and database
+                                      architectures. I am committed to writing
+                                      clean, maintainable code and following
+                                      best practices in application
+                                      architecture. With strong problem-solving
+                                      abilities, clear communication, and a
+                                      results-oriented mindset, I effectively
+                                      translate complex business requirements
+                                      into reliable, scalable, and user-friendly
+                                      digital products.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div className="resume-item border-line-h ">
                                 <div className="image">
                                   <noscript>
                                     <img
@@ -266,8 +325,8 @@ export default function Resume() {
                                 <div className="single-post-text">
                                   <div>
                                     <p>
-                                      Bachelor's Degree in Information Technology
-                                      
+                                      Bachelor's Degree in Information
+                                      Technology
                                     </p>
                                   </div>
                                 </div>
@@ -284,16 +343,14 @@ export default function Resume() {
                                   <span> 2017 - 2019 </span>
                                 </div>
                                 <div className="name">
-                                  <span> Govt. College Of TownShip  </span>
+                                  <span> Govt. College Of TownShip </span>
                                 </div>
                                 <div className="company">
                                   <span> Lahore </span>
                                 </div>
                                 <div className="single-post-text">
                                   <div>
-                                    <p>
-                                      Intermediate
-                                    </p>
+                                    <p>Intermediate</p>
                                   </div>
                                 </div>
                                 {/* <a
@@ -316,9 +373,7 @@ export default function Resume() {
                                 </div>
                                 <div className="single-post-text">
                                   <div>
-                                    <p>
-                                     Ilm o Hunar
-                                    </p>
+                                    <p>Ilm o Hunar</p>
                                   </div>
                                 </div>
                                 {/* <a
@@ -329,7 +384,7 @@ export default function Resume() {
                                   <i className="fas fa-angle-right"></i>
                                 </a> */}
                               </div>
-                                <hr />
+                              <hr />
                             </div>
                           </div>
                         </div>
@@ -440,7 +495,7 @@ export default function Resume() {
                                   <div className="progress">
                                     <div
                                       className="percentage"
-                                      style={{ width: "90%" }}
+                                      style={{ width: '90%' }}
                                     ></div>
                                   </div>
                                 </li>
@@ -451,7 +506,7 @@ export default function Resume() {
                                   <div className="progress">
                                     <div
                                       className="percentage"
-                                      style={{ width: "90%" }}
+                                      style={{ width: '90%' }}
                                     ></div>
                                   </div>
                                 </li>
@@ -462,11 +517,10 @@ export default function Resume() {
                                   <div className="progress">
                                     <div
                                       className="percentage"
-                                      style={{ width: "30%" }}
+                                      style={{ width: '30%' }}
                                     ></div>
                                   </div>
                                 </li>
-                              
                               </ul>
                             </div>
                           </div>
@@ -507,8 +561,6 @@ export default function Resume() {
                               <ul>
                                 <li className="border-line-h">
                                   <div className="">
-                              
-
                                     <span> Custom Design</span>
                                   </div>
                                   <div className="progress">
@@ -539,7 +591,6 @@ export default function Resume() {
                                     <div className="percentage"></div>
                                   </div>
                                 </li>
-                             
                               </ul>
                             </div>
                           </div>
