@@ -5,16 +5,6 @@ import { ArrowLeft, Github, ExternalLink, CheckCircle, AlertTriangle, Rocket, Co
 import ParallaxWrapper from "@/components/ParallaxWrapper";
 import ScrollReveal from "@/components/ScrollReveal";
 import FloatingParticles from "@/components/FloatingParticles";
-import projectAnalytics from "@/assets/project-analytics.jpg";
-import projectEcommerce from "@/assets/project-ecommerce.jpg";
-import projectAutomation from "@/assets/project-automation.jpg";
-
-const projectImages: Record<string, string> = {
-  "ai-analytics-dashboard": projectAnalytics,
-  "ecommerce-scalable-backend": projectEcommerce,
-  "realtime-automation-builder": projectAutomation,
-};
-
 const ProjectDetail = () => {
   const { slug } = useParams();
   const project = projectsContent.find((p) => p.slug === slug);
@@ -48,18 +38,26 @@ const ProjectDetail = () => {
                 </h1>
               </div>
               <div className="flex flex-wrap items-center gap-3">
-                <a
-                  href={project.githubUrl}
-                  className="px-4 py-2 text-sm rounded-lg border border-border text-foreground hover:bg-secondary transition-colors inline-flex items-center gap-2"
-                >
-                  <Github size={16} /> GitHub
-                </a>
-                <a
-                  href={project.liveUrl}
-                  className="px-4 py-2 text-sm rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity inline-flex items-center gap-2"
-                >
-                  <ExternalLink size={16} /> Live Demo
-                </a>
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 text-sm rounded-lg border border-border text-foreground hover:bg-secondary transition-colors inline-flex items-center gap-2"
+                  >
+                    <Github size={16} /> GitHub
+                  </a>
+                )}
+                {project.liveUrl && (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 text-sm rounded-lg bg-primary text-primary-foreground hover:opacity-90 transition-opacity inline-flex items-center gap-2"
+                  >
+                    <ExternalLink size={16} /> Live Site
+                  </a>
+                )}
               </div>
             </div>
 
@@ -82,7 +80,7 @@ const ProjectDetail = () => {
           <ScrollReveal>
             <div className="rounded-xl overflow-hidden border border-border/50">
               <img
-                src={projectImages[project.slug]}
+                src={project.image}
                 alt={`${project.title} screenshot`}
                 className="w-full object-cover"
               />

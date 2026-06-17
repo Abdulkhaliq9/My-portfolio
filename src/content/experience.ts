@@ -2,22 +2,35 @@ export interface Experience {
   company: string;
   role: string;
   period: string;
+  location: string;
   responsibilities: string[];
 }
 
 export const experienceContent: Experience[] = [
   {
     company: "TechCreatix",
-    role: "Full Stack Developer & Project Lead",
-    period: "2024 – Present",
+    role: "Software Engineer",
+    period: "Aug 2024 – Present",
+    location: "Lahore, Pakistan",
     responsibilities: [
-      "Leading development team and mentoring junior developers",
-      "Architecting scalable backend systems for production workloads",
-      "Managing client pipelines and stakeholder communication",
-      "Handling production deployments and release management",
-      "Optimizing application performance and load times",
-      "Cloud integrations with AWS S3 and Athena",
-      "Full lifecycle product delivery from concept to deployment",
+      "Developed and maintained full-stack web applications from requirement gathering to production deployment",
+      "Designed scalable architectures and organized codebases for long-term maintainability",
+      "Built REST APIs and integrated third-party services for data-driven applications",
+      "Managed PostgreSQL databases and optimized backend workflows and query performance",
+      "Developed Python scripts for data ingestion and automation tasks",
+      "Collaborated directly with clients, prepared technical documentation, and maintained production servers",
+    ],
+  },
+  {
+    company: "AcuteDev",
+    role: "Frontend Developer",
+    period: "Oct 2023 – Apr 2024",
+    location: "Lahore, Pakistan",
+    responsibilities: [
+      "Developed responsive websites, e-commerce platforms, and custom web applications",
+      "Converted UI designs into production-ready interfaces with a focus on usability and performance",
+      "Built reusable components and improved user experiences across multiple projects",
+      "Collaborated with clients to deliver tailored solutions while maintaining code quality",
     ],
   },
 ];

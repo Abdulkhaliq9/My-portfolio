@@ -1,11 +1,19 @@
+import projectPace from "@/assets/project-pace.jpg";
+import projectMysportsanalysis from "@/assets/project-mysportsanalysis.jpg";
+import projectPoloreport from "@/assets/project-poloreport.jpg";
+import projectUmpire from "@/assets/project-umpire.jpg";
+import projectLamiya from "@/assets/project-lamiya.jpg";
+import projectCrm from "@/assets/project-crm.jpg";
+
 export interface Project {
   title: string;
   slug: string;
   description: string;
   techStack: string[];
   features: string[];
-  githubUrl: string;
-  liveUrl: string;
+  image: string;
+  githubUrl?: string;
+  liveUrl?: string;
   category: string;
   filterTag: string;
   problem: string;
@@ -18,95 +26,208 @@ export interface Project {
 
 export const projectsContent: Project[] = [
   {
-    title: "AI Data Analytics Dashboard",
-    slug: "ai-analytics-dashboard",
-    description: "A comprehensive analytics platform powered by AI that transforms raw data into actionable insights with real-time visualization and predictive modeling.",
-    techStack: ["React.js", "Next.js", "Python", "PostgreSQL", "AWS Athena", "Tailwind CSS"],
+    title: "PACE Sports Analytics",
+    slug: "pace-sports-analytics",
+    description:
+      "Analytics dashboards and reporting modules for racing data applications, processing large datasets with optimized backend performance.",
+    techStack: ["Vue.js", "Node.js", "PostgreSQL", "Python"],
     features: [
-      "Real-time data visualization with dynamic charts",
-      "AI-powered predictive analytics engine",
-      "Custom report generation and export",
-      "Role-based access control and team collaboration",
+      "Analytics dashboards for racing data visualization",
+      "Reporting modules with export capabilities",
+      "API integrations for sports data ingestion",
+      "Optimized queries for data-intensive workflows",
     ],
-    githubUrl: "#",
-    liveUrl: "#",
-    category: "AI / Analytics",
-    filterTag: "MERN",
-    problem: "Enterprises needed a way to analyze massive datasets in real-time without relying on expensive third-party BI tools. Existing solutions were slow, rigid, and lacked AI-powered insights.",
-    role: "Full Stack Developer & Project Lead — responsible for frontend architecture, backend API design, database optimization, and deployment pipeline.",
-    architecture: "Built on a microservices architecture with a React frontend consuming RESTful APIs. Python handles AI/ML pipelines, PostgreSQL stores structured data, and AWS Athena enables serverless querying of massive datasets stored in S3.",
+    image: projectPace,
+    liveUrl: "https://pace.mysportsanalysis.com",
+    category: "Sports Analytics",
+    filterTag: "Vue.js",
+    problem:
+      "Racing organizations needed real-time analytics and reporting over large, complex datasets — existing tools were slow and couldn't scale with growing data volumes.",
+    role: "Full Stack Developer — built analytics dashboards, integrated APIs, processed large datasets, and optimized backend query performance.",
+    architecture:
+      "Vue.js frontend with modular dashboard components. Node.js REST APIs handle data processing and business logic. PostgreSQL stores structured racing data. Python scripts automate data ingestion and transformation pipelines.",
     challenges: [
-      "Optimizing real-time chart rendering with 100K+ data points without UI lag",
-      "Building a predictive analytics engine that delivers results under 2 seconds",
-      "Implementing granular role-based access control across multiple tenant organizations",
+      "Processing and visualizing large racing datasets without degrading dashboard performance",
+      "Designing efficient PostgreSQL queries for complex reporting modules",
+      "Integrating multiple external data sources into a unified analytics pipeline",
     ],
-    deployment: "Deployed on AWS with CI/CD via GitHub Actions. Frontend hosted on Vercel for edge performance. Database on AWS RDS with read replicas for analytics queries.",
+    deployment:
+      "Production deployment with optimized database indexing, API caching, and server-side performance tuning for data-heavy workloads.",
     results: [
-      "Reduced data analysis time by 60% compared to previous manual workflows",
-      "Serves 500+ daily active users across 12 organizations",
-      "Achieved sub-second dashboard load times with advanced caching strategies",
+      "Delivered scalable analytics dashboards for racing data applications",
+      "Improved query efficiency for data-intensive reporting workflows",
+      "Enabled faster data-driven decision making for sports analysts",
     ],
   },
   {
-    title: "E-Commerce Scalable Backend",
-    slug: "ecommerce-scalable-backend",
-    description: "A high-performance e-commerce backend architecture featuring 90+ RESTful APIs with advanced caching, payment integration, and inventory management.",
-    techStack: ["Node.js", "NestJS", "MongoDB", "AWS S3", "Redis", "Docker"],
+    title: "MySportsAnalysis",
+    slug: "mysportsanalysis",
+    description:
+      "Sports analytics platform with reporting systems handling high-volume datasets, built with scalable APIs and optimized database operations.",
+    techStack: ["Vue.js", "Node.js", "PostgreSQL"],
     features: [
-      "90+ production-grade RESTful APIs",
-      "Multi-vendor marketplace architecture",
-      "Advanced caching and performance optimization",
-      "Integrated payment gateway and order management",
+      "Sports analytics applications and reporting systems",
+      "High-volume dataset processing and visualization",
+      "RESTful APIs for data access and integrations",
+      "Performance-optimized database operations",
     ],
-    githubUrl: "#",
-    liveUrl: "#",
-    category: "Backend / E-Commerce",
-    filterTag: "Backend",
-    problem: "The client needed a multi-vendor e-commerce platform that could handle thousands of concurrent users, complex inventory management, and real-time order tracking — all with minimal latency.",
-    role: "Backend Lead & System Architect — designed the entire API layer, database schema, caching strategy, and deployment infrastructure.",
-    architecture: "NestJS modular architecture with MongoDB for flexible product schemas. Redis for session management and caching hot data. AWS S3 for product media storage. Docker containers orchestrated for consistent environments.",
+    image: projectMysportsanalysis,
+    liveUrl: "https://mysportsanalysis.com",
+    category: "Sports Analytics",
+    filterTag: "Vue.js",
+    problem:
+      "Sports teams and analysts needed a centralized platform to process, analyze, and report on high-volume match and performance data across multiple sports.",
+    role: "Full Stack Developer — developed analytics applications, built APIs, and optimized database operations for scalability and performance.",
+    architecture:
+      "Vue.js SPA consuming Node.js REST APIs. PostgreSQL with optimized schemas for sports data storage. Modular reporting engine supporting multiple sport types and data formats.",
     challenges: [
-      "Designing a schema that supports multi-vendor product catalogs with dynamic attributes",
-      "Implementing a caching layer that reduces database load by 70% on high-traffic endpoints",
-      "Building a payment reconciliation system that handles multiple gateways and currencies",
+      "Handling high-volume sports datasets with consistent query performance",
+      "Building flexible reporting modules that adapt to different sport data structures",
+      "Scaling API throughput during peak usage periods",
     ],
-    deployment: "Containerized with Docker, deployed on Railway with auto-scaling. MongoDB Atlas for managed database. Redis Cloud for distributed caching. CI/CD with GitHub Actions.",
+    deployment:
+      "Deployed on production infrastructure with database optimization, API performance tuning, and reliable uptime for analytics users.",
     results: [
-      "90+ APIs delivered in 8 weeks with full documentation",
-      "Handles 3000+ concurrent users with 99.9% uptime",
-      "Average API response time under 120ms with Redis caching",
+      "Built production sports analytics platform serving multiple sports disciplines",
+      "Improved database scalability for high-volume data operations",
+      "Delivered reporting systems used by sports analysts daily",
     ],
   },
   {
-    title: "Real-Time Automation Builder",
-    slug: "realtime-automation-builder",
-    description: "A visual workflow automation platform with drag-and-drop canvas for building complex automation pipelines with real-time execution monitoring.",
-    techStack: ["Vue.js", "Node.js", "Express.js", "MongoDB", "WebSockets", "Railway"],
+    title: "PoloReport",
+    slug: "poloreport",
+    description:
+      "Polo sports reporting platform with administrative features, backend APIs, and responsive interfaces for improved usability and performance.",
+    techStack: ["React.js", "Next.js", "Node.js", "PostgreSQL"],
     features: [
-      "Drag-and-drop visual workflow builder",
-      "Real-time execution monitoring and logs",
-      "Pre-built integrations and custom triggers",
-      "Collaborative editing with version control",
+      "Reporting modules for polo match data",
+      "Administrative features and user management",
+      "Responsive interfaces with improved usability",
+      "Backend APIs for data access and reporting",
     ],
-    githubUrl: "#",
-    liveUrl: "#",
-    category: "Automation / SaaS",
-    filterTag: "MEVN",
-    problem: "Small and mid-size teams were spending hours on repetitive tasks that could be automated. Existing tools like Zapier were either too expensive or too limited for custom workflows.",
-    role: "Team Lead & Full Stack Developer — led a 3-person team, designed the workflow engine, built the real-time collaboration system, and managed the deployment pipeline.",
-    architecture: "Vue.js frontend with a custom canvas engine for drag-and-drop workflows. Node.js/Express backend with a workflow execution engine. WebSockets for real-time sync and monitoring. MongoDB for workflow persistence.",
+    image: projectPoloreport,
+    liveUrl: "https://poloreport.com",
+    category: "Sports Reporting",
+    filterTag: "React",
+    problem:
+      "Polo organizations lacked a dedicated reporting platform to track match data, generate reports, and manage administrative workflows efficiently.",
+    role: "Full Stack Developer — developed reporting modules, administrative features, backend APIs, and responsive frontend interfaces.",
+    architecture:
+      "Next.js with React for server-rendered pages and interactive dashboards. Node.js backend APIs with PostgreSQL for match data, reports, and user management.",
     challenges: [
-      "Building a performant drag-and-drop canvas that handles 50+ connected nodes without lag",
-      "Implementing real-time collaborative editing with conflict resolution",
-      "Designing a workflow execution engine that handles parallel and conditional branches",
+      "Building intuitive reporting interfaces for complex polo match statistics",
+      "Implementing admin features with proper access controls",
+      "Optimizing application performance for responsive data-heavy pages",
     ],
-    deployment: "Deployed on Railway with automatic scaling. MongoDB Atlas for data persistence. WebSocket connections managed with sticky sessions. GitHub Actions for CI/CD.",
+    deployment:
+      "Production deployment on Vercel for the frontend with a Node.js API backend and managed PostgreSQL database.",
     results: [
-      "Reduced manual workflow execution time by 80% for early adopters",
-      "Supports workflows with 100+ nodes and real-time collaborative editing",
-      "Zero-downtime deployments with blue-green deployment strategy",
+      "Launched dedicated polo reporting platform at poloreport.com",
+      "Improved usability and performance of reporting workflows",
+      "Delivered admin tools for efficient match data management",
+    ],
+  },
+  {
+    title: "Umpire Platform",
+    slug: "umpire-platform",
+    description:
+      "Role-based access control platform with user management, dashboards, reporting systems, and administrative tools for sports officiating.",
+    techStack: ["React.js", "Node.js", "PostgreSQL"],
+    features: [
+      "Role-based access control and user management",
+      "Dashboards for officiating workflows",
+      "Reporting systems and administrative tools",
+      "Secure authentication and authorization",
+    ],
+    image: projectUmpire,
+    liveUrl: "https://umpire.mysportsanalysis.com",
+    category: "Sports Platform",
+    filterTag: "React",
+    problem:
+      "Sports officiating teams needed a centralized platform to manage umpires, control access by role, and generate reports across multiple competitions.",
+    role: "Full Stack Developer — built RBAC features, user management modules, dashboards, and reporting systems.",
+    architecture:
+      "React frontend with role-aware routing and component-level access control. Node.js APIs with JWT authentication. PostgreSQL stores users, roles, permissions, and reporting data.",
+    challenges: [
+      "Implementing granular role-based access control across multiple user types",
+      "Building dashboards that adapt content based on user permissions",
+      "Designing a scalable user management system for growing officiating teams",
+    ],
+    deployment:
+      "Production deployment with secure authentication, role-based API middleware, and optimized database queries for reporting modules.",
+    results: [
+      "Delivered complete umpire management platform with RBAC",
+      "Enabled efficient officiating workflows through role-specific dashboards",
+      "Built reporting and admin tools used in production sports operations",
+    ],
+  },
+  {
+    title: "Lamiya.pk",
+    slug: "lamiya-pk",
+    description:
+      "Complete e-commerce platform for skincare products in Pakistan — built from scratch with authentication, Redis caching, and production-grade performance.",
+    techStack: ["Next.js", "Fastify", "MongoDB", "Redis"],
+    features: [
+      "Full e-commerce platform with product catalog and checkout",
+      "Authentication and user account management",
+      "Redis-based caching for performance optimization",
+      "SEO optimization and Cloudinary image delivery",
+    ],
+    image: projectLamiya,
+    liveUrl: "https://lamiya.pk",
+    category: "E-Commerce",
+    filterTag: "E-Commerce",
+    problem:
+      "A skincare brand needed a fast, SEO-optimized e-commerce platform tailored for the Pakistani market — with reliable checkout, product management, and performance at scale.",
+    role: "Full Stack Developer — built and deployed the complete platform from scratch, including APIs, authentication, caching, and production optimization.",
+    architecture:
+      "Next.js storefront with server-side rendering for SEO. Fastify backend APIs with MongoDB for product and order data. Redis for session management and caching hot data. Cloudinary for optimized image delivery.",
+    challenges: [
+      "Building a complete e-commerce flow from product catalog to order fulfillment",
+      "Implementing Redis caching to keep page loads fast under traffic",
+      "Optimizing SEO, image delivery, and Core Web Vitals for the Pakistani market",
+    ],
+    deployment:
+      "Deployed on Vercel with Fastify API on Railway. MongoDB Atlas for data, Redis for caching, and Cloudflare for CDN and security.",
+    results: [
+      "Launched live e-commerce platform at lamiya.pk",
+      "Achieved fast page loads with Redis caching and optimized image delivery",
+      "Delivered SEO-optimized storefront driving organic product discovery",
+    ],
+  },
+  {
+    title: "CRM Systems",
+    slug: "crm-systems",
+    description:
+      "Custom CRM and administration platforms with role-based access control, APIs, reporting features, and database modules tailored to client requirements.",
+    techStack: ["React.js", "Node.js", "PostgreSQL"],
+    features: [
+      "Custom CRM platforms with role-based access control",
+      "Administration dashboards and user management",
+      "REST APIs and reporting features",
+      "Database modules built to client specifications",
+    ],
+    image: projectCrm,
+    category: "Enterprise / CRM",
+    filterTag: "React",
+    problem:
+      "Clients needed tailored CRM solutions that off-the-shelf products couldn't provide — with custom workflows, role-based access, and reporting aligned to their business processes.",
+    role: "Full Stack Developer — developed CRM platforms end to end, including APIs, admin panels, RBAC, and reporting modules based on client requirements.",
+    architecture:
+      "React admin dashboards with modular feature sets per client. Node.js REST APIs with PostgreSQL. Role-based middleware controlling access to CRM modules, reports, and data operations.",
+    challenges: [
+      "Designing flexible CRM schemas that adapt to diverse client business models",
+      "Implementing secure RBAC across admin, manager, and staff user roles",
+      "Building reporting modules that surface actionable business insights",
+    ],
+    deployment:
+      "Client-specific production deployments with secure authentication, database backups, and performance monitoring.",
+    results: [
+      "Delivered multiple custom CRM platforms for client operations",
+      "Built scalable RBAC and reporting systems tailored to business needs",
+      "Enabled clients to manage workflows through dedicated admin tools",
     ],
   },
 ];
 
-export const filterTags = ["All", "MERN", "MEVN", "Backend", "DevOps"];
+export const filterTags = ["All", "Vue.js", "React", "E-Commerce"];

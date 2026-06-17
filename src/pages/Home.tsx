@@ -11,17 +11,7 @@ import HeroScene from "@/components/HeroScene";
 import ParallaxWrapper from "@/components/ParallaxWrapper";
 import ScrollReveal from "@/components/ScrollReveal";
 import TiltCard from "@/components/TiltCard";
-import projectAnalytics from "@/assets/project-analytics.jpg";
-import projectEcommerce from "@/assets/project-ecommerce.jpg";
-import projectAutomation from "@/assets/project-automation.jpg";
-
-const projectImages: Record<string, string> = {
-  "ai-analytics-dashboard": projectAnalytics,
-  "ecommerce-scalable-backend": projectEcommerce,
-  "realtime-automation-builder": projectAutomation,
-};
-
-const typingTexts = ["Full Stack Developer", "MERN Specialist", "MEVN Expert", "Cloud Engineer"];
+const typingTexts = ["Full Stack Software Engineer", "React & Next.js Developer", "Vue.js Specialist", "API & Database Engineer"];
 
 const Home = () => {
   const [currentText, setCurrentText] = useState("");
@@ -198,7 +188,7 @@ const Home = () => {
                   <Link to={`/projects/${project.slug}`} className="block">
                     <div className="relative overflow-hidden aspect-[16/10]">
                       <img
-                        src={projectImages[project.slug]}
+                        src={project.image}
                         alt={project.title}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
@@ -294,7 +284,7 @@ const Home = () => {
                     <div className="min-w-0">
                       <h3 className="text-lg sm:text-xl font-semibold text-foreground">{exp.company}</h3>
                       <p className="text-sm text-primary font-medium">{exp.role}</p>
-                      <p className="text-xs text-muted-foreground mt-1 font-mono">{exp.period}</p>
+                      <p className="text-xs text-muted-foreground mt-1 font-mono">{exp.period} · {exp.location}</p>
                     </div>
                   </div>
                   <ul className="space-y-2 sm:ml-14">
@@ -321,7 +311,7 @@ const Home = () => {
                 Let's Build Something <span className="gradient-text">Great Together</span>
               </h2>
               <p className="text-sm sm:text-base text-muted-foreground max-w-lg mx-auto mb-6 sm:mb-8">
-                Looking for a senior developer who can lead projects, architect systems, and deliver production-ready code?
+                Looking for a full stack engineer who can build scalable applications, design APIs, and deliver production-ready code?
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
                 <Link

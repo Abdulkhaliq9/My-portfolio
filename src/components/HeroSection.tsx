@@ -4,7 +4,7 @@ import { aboutContent } from "@/content/about";
 import { ArrowDown } from "lucide-react";
 import HeroScene from "@/components/HeroScene";
 
-const typingTexts = ["Full Stack Developer", "MERN Specialist", "MEVN Expert", "Cloud Engineer"];
+const typingTexts = ["Full Stack Software Engineer", "React & Next.js Developer", "Vue.js Specialist", "API & Database Engineer"];
 
 const HeroSection = () => {
   const [currentText, setCurrentText] = useState("");

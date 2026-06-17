@@ -7,16 +7,6 @@ import ScrollReveal from "@/components/ScrollReveal";
 import ParallaxWrapper from "@/components/ParallaxWrapper";
 import FloatingParticles from "@/components/FloatingParticles";
 import TiltCard from "@/components/TiltCard";
-import projectAnalytics from "@/assets/project-analytics.jpg";
-import projectEcommerce from "@/assets/project-ecommerce.jpg";
-import projectAutomation from "@/assets/project-automation.jpg";
-
-const projectImages: Record<string, string> = {
-  "ai-analytics-dashboard": projectAnalytics,
-  "ecommerce-scalable-backend": projectEcommerce,
-  "realtime-automation-builder": projectAutomation,
-};
-
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState("All");
 
@@ -76,7 +66,7 @@ const Projects = () => {
                   <Link to={`/projects/${project.slug}`} className="block">
                     <div className="relative overflow-hidden aspect-[16/10]">
                       <img
-                        src={projectImages[project.slug]}
+                        src={project.image}
                         alt={project.title}
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         loading="lazy"
@@ -96,12 +86,16 @@ const Projects = () => {
                         </h3>
                       </Link>
                       <div className="flex items-center gap-2 shrink-0">
-                        <a href={project.githubUrl} className="p-1.5 rounded-md text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub">
-                          <Github size={14} />
-                        </a>
-                        <a href={project.liveUrl} className="p-1.5 rounded-md text-muted-foreground hover:text-foreground transition-colors" aria-label="Live">
-                          <ExternalLink size={14} />
-                        </a>
+                        {project.githubUrl && (
+                          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="p-1.5 rounded-md text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub">
+                            <Github size={14} />
+                          </a>
+                        )}
+                        {project.liveUrl && (
+                          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="p-1.5 rounded-md text-muted-foreground hover:text-foreground transition-colors" aria-label="Live">
+                            <ExternalLink size={14} />
+                          </a>
+                        )}
                       </div>
                     </div>
 

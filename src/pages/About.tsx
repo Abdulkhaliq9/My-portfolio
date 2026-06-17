@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { aboutContent } from "@/content/about";
 import { skillsContent } from "@/content/skills";
 import { experienceContent } from "@/content/experience";
-import { MapPin, Calendar, Briefcase, ArrowRight } from "lucide-react";
+import { MapPin, Calendar, Briefcase, ArrowRight, GraduationCap } from "lucide-react";
 import ParallaxWrapper from "@/components/ParallaxWrapper";
 import ScrollReveal from "@/components/ScrollReveal";
 import FloatingParticles from "@/components/FloatingParticles";
@@ -22,7 +22,7 @@ const About = () => {
         >
           <p className="text-sm font-mono text-primary mb-2">About</p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 sm:mb-6">
-            Engineering Lead & <span className="gradient-text">Product-Minded Developer</span>
+            Full Stack <span className="gradient-text">Software Engineer</span>
           </h1>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl">
             {aboutContent.subheadline}
@@ -91,6 +91,35 @@ const About = () => {
         </section>
       </ParallaxWrapper>
 
+      {/* Education */}
+      <ParallaxWrapper speed={0.1}>
+        <section className="section-container">
+          <ScrollReveal>
+            <p className="text-sm font-mono text-primary mb-2">Education</p>
+            <h2 className="section-title">
+              Academic <span className="gradient-text">Background</span>
+            </h2>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.1}>
+            <div className="glass-card p-5 sm:p-8 hover-glow mt-6 sm:mt-8">
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="p-2 sm:p-3 rounded-lg bg-primary/10 text-primary shrink-0">
+                  <GraduationCap size={18} />
+                </div>
+                <div className="min-w-0">
+                  <h3 className="text-lg sm:text-xl font-semibold text-foreground">{aboutContent.education.institution}</h3>
+                  <p className="text-sm text-primary font-medium">{aboutContent.education.degree}</p>
+                  <p className="text-xs text-muted-foreground mt-1 font-mono">
+                    {aboutContent.education.period} · {aboutContent.education.location}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </ScrollReveal>
+        </section>
+      </ParallaxWrapper>
+
       {/* Experience */}
       <ParallaxWrapper speed={0.08}>
         <section className="section-container">
@@ -112,7 +141,7 @@ const About = () => {
                     <div className="min-w-0">
                       <h3 className="text-lg sm:text-xl font-semibold text-foreground">{exp.company}</h3>
                       <p className="text-sm text-primary font-medium">{exp.role}</p>
-                      <p className="text-xs text-muted-foreground mt-1 font-mono">{exp.period}</p>
+                      <p className="text-xs text-muted-foreground mt-1 font-mono">{exp.period} · {exp.location}</p>
                     </div>
                   </div>
                   <ul className="space-y-2 sm:ml-14">
