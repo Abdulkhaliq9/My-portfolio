@@ -21,6 +21,11 @@ const TiltCard = ({ children, className = "", tiltIntensity = 10, glareEnabled =
   const rotateY = useSpring(useTransform(x, [-0.5, 0.5], [-tiltIntensity, tiltIntensity]), { stiffness: 200, damping: 20 });
   const glareX = useTransform(x, [-0.5, 0.5], [0, 100]);
   const glareY = useTransform(y, [-0.5, 0.5], [0, 100]);
+  const glareBackground = useTransform(
+    [glareX, glareY],
+    ([gx, gy]) =>
+      `radial-gradient(circle at ${gx}% ${gy}%, hsl(var(--primary) / 0.08) 0%, transparent 60%)`
+  );
 
   if (isMobile || shouldReduceMotion) {
     return <div className={className}>{children}</div>;
@@ -55,13 +60,7 @@ const TiltCard = ({ children, className = "", tiltIntensity = 10, glareEnabled =
       {glareEnabled && (
         <motion.div
           className="pointer-events-none absolute inset-0 rounded-xl z-10"
-          style={{
-            background: useTransform(
-              [glareX, glareY],
-              ([gx, gy]) =>
-                `radial-gradient(circle at ${gx}% ${gy}%, hsl(var(--primary) / 0.08) 0%, transparent 60%)`
-            ),
-          }}
+          style={{ background: glareBackground }}
         />
       )}
     </motion.div>
